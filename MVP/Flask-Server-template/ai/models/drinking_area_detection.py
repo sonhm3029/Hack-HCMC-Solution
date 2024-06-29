@@ -23,7 +23,7 @@ def obj_counting(arr, names):
 def get_mask_img(results, image):
     masks = results[0].masks
     final_mask = np.zeros((image.shape[0], image.shape[1]), dtype=np.uint8)
-
+    
     for mask in masks:
         mask_data = mask.data.squeeze().cpu().numpy() * 255
         mask_data = mask_data.astype(np.uint8)
@@ -60,6 +60,9 @@ def get_response(img_path):
         future_detec_beer = executor.submit(run_detection_beer, image)
 
         results_seg = future_seg.result()
+        if not results_seg[0].masks:
+            return {}
+
         mask_img, final_mask = get_mask_img(results_seg, image)
 
         results_detec_beer = future_detec_beer.result()
@@ -96,13 +99,14 @@ def get_response(img_path):
 
         human_count = sum(humans_in_mask)
 
-        beer_count_dict = {label: beer_counts.count(
-            label) for label in set(beer_counts)}
-
+        beer_count_dict = {label: beer_counts.count(label) for label in set(beer_counts)}
+        
+        
         for beer_type, count in beer_count_dict.items():
             if beer_type not in json_result:
                 json_result[beer_type] = {"human_count": 0, "beer_count": 0}
             json_result[beer_type]["human_count"] += min(human_count, count)
             json_result[beer_type]["beer_count"] += count
-
+        
+        
     return json_result
