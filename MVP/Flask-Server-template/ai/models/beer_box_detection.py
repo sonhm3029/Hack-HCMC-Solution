@@ -14,7 +14,7 @@ def obj_counting(arr, names):
         result[class_name] = int(count)
     return result
 
+
 def get_response(img_path):
-    results = model(img_path,device = 'cuda')[0].boxes.cls
+    results = model(img_path, device='cpu')[0].boxes.cls
     return obj_counting(results, classes)
-    

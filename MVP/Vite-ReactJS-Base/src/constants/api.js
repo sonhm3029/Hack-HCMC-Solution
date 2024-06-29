@@ -1,8 +1,11 @@
-export const PREFIX = "/api/v1";
+export const PREFIX = "";
 
 const API_VAR = {
   COLLECTED_DATA: {
     BASE: "/image",
+  },
+  PREDICT: {
+    BASE: "/predict",
   },
 };
 

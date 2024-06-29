@@ -1,16 +1,17 @@
 import API_VAR from "@constants/api";
 import axiosUtils from "@utils/axios-utils";
 
-const dataProvider = {
-  search: async (params) => {
+const aiProvider = {
+  predict: async (body) => {
     return new Promise((resolve, reject) => {
       axiosUtils
         .requestAxios({
-          method: "GET",
-          url: API_VAR.COLLECTED_DATA.BASE,
+          method: "POST",
+          url: API_VAR.PREDICT.BASE,
           ignoreAuth: false,
           isUseServiceUrl: true,
-          params,
+          data: body,
+          isUpload: true,
         })
         .then((res) => {
           resolve(res);
@@ -19,7 +20,7 @@ const dataProvider = {
           reject(error);
         });
     });
-  }
+  },
 };
 
-export default dataProvider;
+export default aiProvider;

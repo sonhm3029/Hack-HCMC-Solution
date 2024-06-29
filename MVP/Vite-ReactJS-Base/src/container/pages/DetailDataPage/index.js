@@ -5,9 +5,10 @@ import useCustomState from "@/hooks/useCustomState";
 import { loadingIndicatorRef } from "@/main";
 import dataProvider from "@/data-access/dataProvider";
 import { SUCCESS_CODE } from "@/constants/status_code";
-import { Button, notification } from "antd";
+import { Button, Col, Image, Row, notification } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
 import { RouteName } from "@/routes/constants";
+import axiosUtils from "@/utils/axios-utils";
 
 const DetailDataPage = () => {
   const { id } = useParams();
@@ -54,12 +55,24 @@ const DetailDataPage = () => {
           </Button>
         </Link>
         <div className="flex-1 text-center">
-          {" "}
           <h1 className="font-bold text-xl">{state?.data?.location}</h1>
         </div>
       </div>
-      <div className="flex">
-        <div className="image-present"></div>
+      <div className="flex mt-4">
+        <div className="image-present">
+          <Row gutter={[16, 16]}>
+            {state?.data?.files?.map((item, index) => (
+              <Col sm={12} md={12} lg={12} xl={12} key={index + 1}>
+                <Image
+                  src={axiosUtils.getFilePath({ url: item })}
+                  alt={"img"}
+                  height={"100%"}
+                  width={"100%"}
+                />
+              </Col>
+            ))}
+          </Row>
+        </div>
         <div className="result-predict"></div>
       </div>
     </DetailDataPageWrapper>
