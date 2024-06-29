@@ -71,19 +71,32 @@ def upload():
             print(filepath)
             results.append(filepath)
             f.save(filepath)
-        if not len(filepath):
+        if not len(results):
             raise UserException(400, "Image must be provided!")
+        
+        existing_record = mongodb.collections["images"].find_one({"location": location})
+        
+        if(existing_record):
+            print(existing_record["files"], "CHECCK")
+            new_files_list = existing_record["files"] + results
+            update_result = mongodb.collections["images"].update_one(
+                {"location": location},
+                {"$set": {"files": new_files_list}}
+            )
+            if not update_result.modified_count:
+                raise Exception(400, "Update failed!")
+            
+        else:
+            saved_data = {
+                "location": location,
+                "note": note,
+                "files": results
+            }
+            res = mongodb.collections["images"].insert_one(saved_data)
+            if not res.inserted_id:
+                raise Exception("Create new failed!")
 
-        saved_data = {
-            "location": location,
-            "note": note,
-            "files": results
-        }
-        res = mongodb.collections["images"].insert_one(saved_data)
-        if not res.inserted_id:
-            raise Exception("Create new failed!")
-
-        return jsonify({"code": 200, "data": {"_id": str(res.inserted_id), "files": results}})
+        return jsonify({"code": 200, "data": "Success"})
     except UserException as e:
         return jsonify({"code": e.code, "message": e.message})
     except Exception as e:
