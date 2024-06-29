@@ -21,7 +21,7 @@ import {
 import { RouteName } from "@/routes/constants";
 import useCustomState from "@/hooks/useCustomState";
 import { AUTH_KEY } from "@/constants";
-import { curryRight } from "lodash";
+import LogoHeineken from "@assets/ken_logo.jpg";
 
 const { Sider } = Layout;
 
@@ -138,11 +138,12 @@ const SimpleLayout = () => {
         }}
       >
         <div className="demo-logo-vertical flex justify-center mt-3 mb-3">
-          <Avatar
+          {/* <Avatar
             src={
               "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
             }
-          />
+          /> */}
+          <img src={LogoHeineken} />
         </div>
         <Menu
           theme="dark"
@@ -152,14 +153,14 @@ const SimpleLayout = () => {
           onSelect={onMenuSelect}
           selectedKeys={[state.currentMenuKey]}
         />
-        <div className="flex-col flex items-center mt-8">
+        {/* <div className="flex-col flex items-center mt-8">
           <Button
             className="flex items-center bg-red-800 h-auto border-none text-white mt-4"
             onClick={onLogout}
           >
             <LogoutOutlined /> Logout
           </Button>
-        </div>
+        </div> */}
       </Sider>
       <div id="page-body" className="ml-52 w-full overflow-y-auto">
         <Outlet />

@@ -1,0 +1,17 @@
+Flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+pymongo==4.5.0
+pyjwt==2.8.0
+bcrypt==4.0.1
+marshmallow==3.20.1
+
+# ai
+ultralytics==8.2.41
+paddlepaddle==2.6.1
+paddleocr==2.7.3
+google-generativeai==0.6.0
+vietocr==0.3.13
+opencv-python==4.6.0.66
+unidecode==1.2.0
