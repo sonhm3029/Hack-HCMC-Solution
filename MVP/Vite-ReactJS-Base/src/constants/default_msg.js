@@ -1,0 +1,1 @@
+export const fallbacks_msg = ["Tôi xin lỗi, Tôi chưa có thông tin để trả lời bạn."]
