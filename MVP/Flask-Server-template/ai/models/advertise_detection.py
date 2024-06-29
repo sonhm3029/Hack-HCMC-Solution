@@ -3,7 +3,7 @@ from paddleocr import PaddleOCR
 import cv2
 from unidecode import unidecode
 
-advertise_detector = YOLO(r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_beer_advertise/best.pt")
+advertise_detector = YOLO(r"ai\weights\v8m_beer_advertise\best.pt")
 paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=False)
 
 text_labels = ['heineken', 'tiger', 'larue', 'biaviet', 'bivina', 'edelweiss', 'strongbow', 'saigon', '333', 'huda']

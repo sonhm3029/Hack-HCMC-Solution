@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import torch
 
-model = YOLO(r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_beer_detection/best.pt")
+model = YOLO(r"ai\weights\v8m_beer_detection\best.pt")
 classes = model.names
 
 

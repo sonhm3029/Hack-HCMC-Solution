@@ -17,8 +17,10 @@ import {Provider} from 'react-redux';
 import store from './src/redux/store';
 import SetupInfoScreen from './src/screens/SetupInfoScreen';
 import {RouteName} from './src/constants';
+import ModalLoading from './src/components/Loading';
 
 const Stack = createStackNavigator();
+export const refModalLoading = React.createRef(null);
 
 export default function App() {
   return (
@@ -35,6 +37,11 @@ export default function App() {
             component={SetupInfoScreen}
           />
         </Stack.Navigator>
+        <ModalLoading
+          ref={ref => {
+            refModalLoading.current = ref;
+          }}
+        />
       </NavigationContainer>
     </Provider>
   );

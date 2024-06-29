@@ -13,6 +13,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {URL_SERVER} from '../../utils/axios-utils';
 import {DATA_API, LOCATION_API} from '../../constants/api';
 import {RouteName} from '../../constants';
+import {refModalLoading} from '../../../App';
 
 const SetupInfoScreen = ({navigation}) => {
   const [location, setLocation] = useState('');
@@ -38,6 +39,7 @@ const SetupInfoScreen = ({navigation}) => {
         Alert.alert('Error', 'Please enter a valid new location.');
         return;
       }
+      refModalLoading.current.show();
 
       const response = await axios.post(URL_SERVER + LOCATION_API, {
         new_loc: newLocation.trim(),
@@ -53,8 +55,11 @@ const SetupInfoScreen = ({navigation}) => {
         label: newLocation.trim(),
         value: newLocation.trim(),
       });
+      refModalLoading.current.hide();
       Alert.alert('Success', 'New location created successfully.');
     } catch (error) {
+      refModalLoading.current.hide();
+
       Alert.alert('Error', error?.message);
     }
   };
@@ -65,6 +70,7 @@ const SetupInfoScreen = ({navigation}) => {
       Alert.alert('ERROR', 'Please select location!');
       return;
     }
+    refModalLoading.current.show();
 
     const formData = new FormData();
     for (const [index, path] of photoData.entries()) {
@@ -93,6 +99,7 @@ const SetupInfoScreen = ({navigation}) => {
         setLocation(null);
         setNote(null);
         updatePhotoData({currentPhotoPaths: null});
+        refModalLoading.current.hide();
         Alert.alert('SUCCESS', `Success upload image to location ${new_loc}`, [
           {
             text: 'OK',
@@ -104,7 +111,9 @@ const SetupInfoScreen = ({navigation}) => {
         console.error('Error fetching data:', error);
         Alert.alert('Error', error?.message);
       })
-      .finally(() => {});
+      .finally(() => {
+        refModalLoading.current.hide();
+      });
   };
 
   const onChangeNote = text => {
