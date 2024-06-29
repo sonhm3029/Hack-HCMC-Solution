@@ -5,7 +5,7 @@ import cv2
 from concurrent.futures import ThreadPoolExecutor
 
 # Load models
-model_seg = YOLO(r"ai\weights\v8m_drinking_area_segmentation\best.pt")
+model_seg = YOLO(r"ai\weights\v8m_drinking_area_detection\seg_best.pt")
 model_detec_beer = YOLO(r"ai\weights\v8m_beer_detection\best.pt")
 model_detec_human = YOLO(r"ai\weights\v8m_human_detection\best.pt")
 
@@ -15,8 +15,10 @@ classes_detec_human = model_detec_human.names
 
 def obj_counting(arr, names):
     unique_elements, counts = torch.unique(arr, return_counts=True)
-    result = {names[int(element)]: int(count)
-              for element, count in zip(unique_elements, counts)}
+    result = {}
+    for element, count in zip(unique_elements, counts):
+        class_name = names[int(element)]
+        result[class_name] = int(count)
     return result, sum(result.values())
 
 
@@ -100,13 +102,12 @@ def get_response(img_path):
         human_count = sum(humans_in_mask)
 
         beer_count_dict = {label: beer_counts.count(label) for label in set(beer_counts)}
-        
-        
+                
         for beer_type, count in beer_count_dict.items():
             if beer_type not in json_result:
                 json_result[beer_type] = {"human_count": 0, "beer_count": 0}
-            json_result[beer_type]["human_count"] += min(human_count, count)
-            json_result[beer_type]["beer_count"] += count
+            json_result[beer_type]["human_count"] += int(min(human_count, count))
+            json_result[beer_type]["beer_count"] += int(count)
         
         
     return json_result
