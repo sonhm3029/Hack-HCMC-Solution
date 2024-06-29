@@ -11,6 +11,7 @@ const MediaPage = React.lazy(() => import("@pages/MediaPage"));
 
 const DataPage = React.lazy(() => import("@pages/DataPage"));
 const PredictPage = React.lazy(() => import("@pages/PredictPage"));
+const DetailDataPage = React.lazy(() => import("@pages/DetailDataPage"));
 
 export const ComponentWrapper = (Component, permissions) => (props) => {
   return (
@@ -37,7 +38,12 @@ const publicRoutes = [
     path: RouteName.PREDICT,
     component: ComponentWrapper(PredictPage, []),
     layout: SIMPLE_LAYOUT,
-  }
+  },
+  {
+    path: RouteName.DETAIL_DATA_PAGE,
+    component: ComponentWrapper(DetailDataPage, []),
+    layout: SIMPLE_LAYOUT,
+  },
 ];
 
 const privateRoutes = [

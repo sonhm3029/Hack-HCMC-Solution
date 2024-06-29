@@ -19,5 +19,6 @@ export const RouteName = {
 
   // HACKCMC
   DATA_PAGE: "/data",
-  PREDICT: "/predict"
+  PREDICT: "/predict",
+  DETAIL_DATA_PAGE: "/data/:id"
 };

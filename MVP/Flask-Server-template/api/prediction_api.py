@@ -16,7 +16,7 @@ from utils.logger import log
 
 from ai import get_llm_response, get_human_detection_response,\
                 get_beer_box_response, get_beer_product_response, \
-                get_advertise_response, get_drinking_human_response
+                get_advertise_response
 from concurrent import futures
 
 predict_bp = Blueprint("predict", __name__)
@@ -50,12 +50,12 @@ def upload():
         # Prediction here
         # llm_prediction = get_llm_response(filepath)
         model_functions = {
-            # "llm_response": get_llm_response,
-            # "human_detection_response": get_human_detection_response,
-            # "beer_box_detection_response": get_beer_box_response,
-            # "beer_product_detection_response": get_beer_product_response,
-            # "beer_advertise_detection": get_advertise_response,
-            "drinking_human_response" : get_drinking_human_response
+            "llm_response": get_llm_response,
+            "human_detection_response": get_human_detection_response,
+            "beer_box_detection_response": get_beer_box_response,
+            "beer_product_detection_response": get_beer_product_response,
+            "beer_advertise_detection": get_advertise_response,
+            # "drinking_human_response" : get_drinking_human_response
         }
         
         # Run multiprocess

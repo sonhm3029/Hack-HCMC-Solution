@@ -3,6 +3,7 @@ import os
 import shutil
 from datetime import datetime, timedelta, timezone
 from logging import ERROR, INFO
+from bson import ObjectId
 
 from flask import Blueprint, jsonify, request
 from werkzeug.utils import secure_filename
@@ -20,10 +21,15 @@ image_bp = Blueprint("image", __name__)
 def get():
     """API for handle upload"""
     try:
-        res = mongodb.collections["images"].find({})
+        _id = request.args.get('id')
+        query = {}
+        print(_id)
+        if _id:
+            query["_id"] = ObjectId(_id)
+        res = mongodb.collections["images"].find(query)
         res = ImagesSchema().dump(res, many=True)
         
-        return jsonify({"code": 200, "data": res})
+        return jsonify({"code": 200, "data": res[0] if _id else res})
     except UserException as e:
         return jsonify({"code": e.code, "message": e.message})
     except Exception as e:
