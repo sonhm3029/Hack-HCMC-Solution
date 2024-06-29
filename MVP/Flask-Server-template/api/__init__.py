@@ -3,6 +3,7 @@ from flask import send_from_directory
 from .user_api import user_bp
 from .image_api import image_bp
 from .prediction_api import predict_bp
+from .location_api import location_bp
 
 
 def initRoute(app):
@@ -17,3 +18,4 @@ def initRoute(app):
     app.register_blueprint(user_bp, url_prefix="/user")
     app.register_blueprint(image_bp, url_prefix="/image")
     app.register_blueprint(predict_bp, url_prefix="/predict")
+    app.register_blueprint(location_bp, url_prefix="/location")

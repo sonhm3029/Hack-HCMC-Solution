@@ -18,3 +18,8 @@ class ImagesSchema(Schema):
     created_at = fields.DateTime()
     updated_at = fields.DateTime()
 
+class LocationSchema(Schema):
+    _id = fields.String()
+    value = fields.String(required=True)
+    created_at = fields.DateTime()
+    updated_at = fields.DateTime()

@@ -5,10 +5,13 @@ class API:
         ME = "/me"
         LOGOUT = "/logout"
         UPLOAD = "/upload"
-        
+
     class IMAGE:
         UPLOAD = "/upload"
         BASE = ""
-        
+
+    class LOCATION:
+        BASE = ""
+
     class PREDICTION:
         BASE = ""

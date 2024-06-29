@@ -11,7 +11,7 @@ import axios from 'axios';
 import DropdownComponent from '../../components/DropDown';
 import {useSelector} from 'react-redux';
 import {URL_SERVER} from '../../utils/axios-utils';
-import {DATA_API} from '../../constants/api';
+import {DATA_API, LOCATION_API} from '../../constants/api';
 
 const SetupInfoScreen = () => {
   const [location, setLocation] = useState('');
@@ -20,17 +20,6 @@ const SetupInfoScreen = () => {
   const [locationList, setLocationList] = useState([]);
 
   const photoData = useSelector(state => state.data?.currentPhotoPath);
-
-  const dataLocations = [
-    {label: 'Item 1', value: '1'},
-    {label: 'Item 2', value: '2'},
-    {label: 'Item 3', value: '3'},
-    {label: 'Item 4', value: '4'},
-    {label: 'Item 5', value: '5'},
-    {label: 'Item 6', value: '6'},
-    {label: 'Item 7', value: '7'},
-    {label: 'Item 8', value: '8'},
-  ];
 
   const onChangeLocation = value => {
     console.log('LOCATION', value);
@@ -42,15 +31,30 @@ const SetupInfoScreen = () => {
   };
 
   const handleCreateNewLocation = async () => {
-    if (newLocation.trim() === '') {
-      Alert.alert('Error', 'Please enter a valid new location.');
-      return;
+    try {
+      if (newLocation.trim() === '') {
+        Alert.alert('Error', 'Please enter a valid new location.');
+        return;
+      }
+
+      const response = await axios.post(URL_SERVER + LOCATION_API, {
+        new_loc: newLocation.trim(),
+      });
+      if (response?.data?.code !== 200) {
+        throw new Error(response?.data?.message);
+      }
+      getLocationData();
+
+      setNewLocation('');
+      setLocation({
+        _index: locationList?.length,
+        label: newLocation.trim(),
+        value: newLocation.trim(),
+      });
+      Alert.alert('Success', 'New location created successfully.');
+    } catch (error) {
+      Alert.alert('Error', error?.message);
     }
-
-    const response = 
-
-    setNewLocation('');
-    Alert.alert('Success', 'New location created successfully.');
   };
 
   const handleSendData = async () => {
@@ -68,14 +72,18 @@ const SetupInfoScreen = () => {
 
   const getLocationData = () => {
     axios
-      .get(URL_SERVER + DATA_API)
+      .get(URL_SERVER + LOCATION_API)
       .then(response => {
         // setData(response.data);
+        if (response?.data?.code !== 200) {
+          throw new Error(response?.data?.message);
+        }
         console.log('RES LOCATION', response);
         setLocationList(response?.data?.data);
       })
       .catch(error => {
         console.error('Error fetching data:', error);
+        Alert.alert('Error', error?.message);
       })
       .finally(() => {});
   };
@@ -93,8 +101,8 @@ const SetupInfoScreen = () => {
         <View style={styles.sectionContent}>
           <DropdownComponent
             data={locationList?.map(item => ({
-              label: item?.location,
-              value: item?.location,
+              label: item?.value,
+              value: item?.value,
             }))}
             onChange={onChangeLocation}
             value={location}

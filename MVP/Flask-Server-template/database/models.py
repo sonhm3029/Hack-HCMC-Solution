@@ -34,6 +34,13 @@ def init_collections():
                 }
             }
         },
+        "locations": {
+            "validator": {
+                "$jsonSchema": {
+                    "bsonType": "object",
+                }
+            }
+        }
     }
     print(db, "DB")
     for coll in collections:
