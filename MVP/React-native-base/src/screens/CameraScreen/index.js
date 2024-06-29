@@ -12,6 +12,7 @@ import {Camera, useCameraDevice} from 'react-native-vision-camera';
 import {CameraRoll} from '@react-native-camera-roll/camera-roll';
 import axios from 'axios';
 import {RouteName} from '../../constants';
+import {useDispatch} from 'react-redux';
 
 const CameraScreen = ({navigation}) => {
   const [hasPermission, setHasPermission] = useState(false);
@@ -19,6 +20,8 @@ const CameraScreen = ({navigation}) => {
   const [loading, setLoading] = useState(false);
   const camera = useRef();
   const device = useCameraDevice('back');
+
+  const updatePhotoData = useDispatch()['data'].updateData;
 
   useEffect(() => {
     const requestCameraPermission = async () => {
@@ -48,6 +51,7 @@ const CameraScreen = ({navigation}) => {
     let file = await camera.current.takePhoto();
     console.log(file.path);
     setPhotoPath(file.path);
+    updatePhotoData({currentPhotoPath: file.path});
     await CameraRoll.save(`file://${file.path}`, {
       type: 'photo',
     });

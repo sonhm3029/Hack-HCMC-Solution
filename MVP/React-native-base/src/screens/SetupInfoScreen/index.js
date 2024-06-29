@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Text,
@@ -9,11 +9,17 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import DropdownComponent from '../../components/DropDown';
+import {useSelector} from 'react-redux';
+import {URL_SERVER} from '../../utils/axios-utils';
+import {DATA_API} from '../../constants/api';
 
 const SetupInfoScreen = () => {
   const [location, setLocation] = useState('');
   const [note, setNote] = useState('');
   const [newLocation, setNewLocation] = useState('');
+  const [locationList, setLocationList] = useState([]);
+
+  const photoData = useSelector(state => state.data?.currentPhotoPath);
 
   const dataLocations = [
     {label: 'Item 1', value: '1'},
@@ -35,19 +41,14 @@ const SetupInfoScreen = () => {
     setNewLocation(text);
   };
 
-  const handleCreateNewLocation = () => {
+  const handleCreateNewLocation = async () => {
     if (newLocation.trim() === '') {
       Alert.alert('Error', 'Please enter a valid new location.');
       return;
     }
-    // Placeholder logic for adding a new location item to dataLocations
-    const newLocationItem = {
-      label: newLocation,
-      value: Date.now().toString(),
-    };
-    const updatedLocations = [...dataLocations, newLocationItem];
-    // You can handle how to use updatedLocations as needed
-    // setLocations(updatedLocations);
+
+    const response = 
+
     setNewLocation('');
     Alert.alert('Success', 'New location created successfully.');
   };
@@ -65,6 +66,23 @@ const SetupInfoScreen = () => {
     // }
   };
 
+  const getLocationData = () => {
+    axios
+      .get(URL_SERVER + DATA_API)
+      .then(response => {
+        // setData(response.data);
+        console.log('RES LOCATION', response);
+        setLocationList(response?.data?.data);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      })
+      .finally(() => {});
+  };
+  useEffect(() => {
+    getLocationData();
+  }, []);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Please fill in below information</Text>
@@ -74,7 +92,10 @@ const SetupInfoScreen = () => {
         <Text style={styles.sectionTitle}>Location</Text>
         <View style={styles.sectionContent}>
           <DropdownComponent
-            data={dataLocations}
+            data={locationList?.map(item => ({
+              label: item?.location,
+              value: item?.location,
+            }))}
             onChange={onChangeLocation}
             value={location}
           />

@@ -62,18 +62,6 @@ const HomeScreen = ({navigation}) => {
           Select images from gallery to upload to server
         </Text>
       </View>
-      <View style={styles.section}>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => {
-            /* Your upload logic here */
-          }}>
-          <Text style={styles.buttonText}>Make Prediction</Text>
-        </TouchableOpacity>
-        <Text style={styles.description}>
-          Upload an image and get a prediction
-        </Text>
-      </View>
     </View>
   );
 };

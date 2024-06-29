@@ -1,0 +1,1 @@
+export const URL_SERVER = "https://ebc2-101-53-1-124.ngrok-free.app"
