@@ -65,8 +65,8 @@ def upload():
             for future in futures.as_completed(future_to_model):
                 model_name = future_to_model[future]
                 try:
-                    result = future.result()
-                    results[model_name] = result
+                    result, img_path = future.result()
+                    results[model_name] = {**result, "img_path": img_path}
                 except Exception as e:
                     log(ERROR, f"Model {model_name} raised an exception: {str(e)}")
                     results[model_name] = str(e)

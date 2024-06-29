@@ -63,7 +63,7 @@ def get_response(img_path):
 
         results_seg = future_seg.result()
         if not results_seg[0].masks:
-            return {}
+            return {}, ""
 
         mask_img, final_mask = get_mask_img(results_seg, image)
 
@@ -73,7 +73,7 @@ def get_response(img_path):
         beer_boxes = results_detec_beer[0].boxes.xyxy.tolist()
 
         if beer_counting == 0:
-            return {}
+            return {}, ""
 
         future_detec_human = executor.submit(run_detection_human, mask_img)
         results_detec_human = future_detec_human.result()
@@ -110,4 +110,4 @@ def get_response(img_path):
             json_result[beer_type]["beer_count"] += int(count)
         
         
-    return json_result
+    return json_result, ""

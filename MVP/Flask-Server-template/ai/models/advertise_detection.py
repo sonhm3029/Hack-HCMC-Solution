@@ -2,6 +2,8 @@ from ultralytics import YOLO
 from paddleocr import PaddleOCR
 import cv2
 from unidecode import unidecode
+from utils.file import UPLOAD_FOLDER, getUniqueFileName
+import os
 
 advertise_detector = YOLO(r"ai\weights\v8m_beer_advertise\best.pt")
 paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=True)
@@ -13,7 +15,16 @@ class_names = advertise_detector.names
 def detect_objects(image_path, detector):
     image = cv2.imread(image_path)
     results = detector(image_path)
-    return image, results[0].boxes
+    
+    # Save IMAGE
+    img = results[0].plot(conf=False)
+    saved_folder = getUniqueFileName(UPLOAD_FOLDER)
+    if not os.path.exists(saved_folder):
+        os.makedirs(saved_folder)
+    saved_file_path = os.path.join(saved_folder, "result.jpg")
+    cv2.imwrite(saved_file_path, img)
+    
+    return image, results[0].boxes, saved_file_path
 
 def detect_text_in_boxes(image, boxes, paddleocr, class_names):
     texts = []
@@ -56,11 +67,11 @@ def find_matching_labels(pred, labels):
     return res
 
 def get_response(image_path): 
-    image, boxes = detect_objects(image_path, advertise_detector)
+    image, boxes, detect_img_path = detect_objects(image_path, advertise_detector)
     texts = detect_text_in_boxes(image, boxes, paddle_ocr, class_names)
     matching_labels = find_matching_labels(texts, text_labels)
     
     # Format the output to match the required structure
     formatted_output = {label.capitalize().replace("_", ""): matching_labels[label] for label in text_labels}
     
-    return formatted_output
+    return formatted_output, detect_img_path

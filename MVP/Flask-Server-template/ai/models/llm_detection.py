@@ -67,4 +67,4 @@ def get_response(img_path):
     
     parse_res = parse_llm_res(response)
     print("LLM RES", parse_res)
-    return parse_res
+    return parse_res, ""
