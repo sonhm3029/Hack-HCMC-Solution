@@ -5,7 +5,7 @@ import cv2
 from concurrent.futures import ThreadPoolExecutor
 
 # Load models
-model_seg = YOLO(r"ai\weights\v8m_drinking_area_detection\seg_best.pt")
+model_seg = YOLO(r"ai\weights\v8m_drinking_area_segmentation\best.pt")
 model_detec_beer = YOLO(r"ai\weights\v8m_beer_detection\best.pt")
 model_detec_human = YOLO(r"ai\weights\v8m_human_detection\best.pt")
 

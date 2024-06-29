@@ -4,7 +4,7 @@ import cv2
 from unidecode import unidecode
 
 advertise_detector = YOLO(r"ai\weights\v8m_beer_advertise\best.pt")
-paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=False)
+paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=True)
 
 text_labels = ['heineken', 'tiger', 'larue', 'biaviet', 'bivina', 'edelweiss', 'strongbow', 'saigon', '333', 'huda']
 
