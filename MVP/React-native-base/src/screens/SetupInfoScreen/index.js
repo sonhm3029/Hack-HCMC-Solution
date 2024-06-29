@@ -12,8 +12,9 @@ import DropdownComponent from '../../components/DropDown';
 import {useSelector} from 'react-redux';
 import {URL_SERVER} from '../../utils/axios-utils';
 import {DATA_API, LOCATION_API} from '../../constants/api';
+import {RouteName} from '../../constants';
 
-const SetupInfoScreen = () => {
+const SetupInfoScreen = ({navigation}) => {
   const [location, setLocation] = useState('');
   const [note, setNote] = useState('');
   const [newLocation, setNewLocation] = useState('');
@@ -90,7 +91,12 @@ const SetupInfoScreen = () => {
         }
         setLocation(null);
         setNote(null);
-        Alert.alert('SUCCESS', `Success upload image to location ${new_loc}`);
+        Alert.alert('SUCCESS', `Success upload image to location ${new_loc}`, [
+          {
+            text: 'OK',
+            onPress: () => navigation.navigate(RouteName.HomeScreen),
+          },
+        ]);
       })
       .catch(error => {
         console.error('Error fetching data:', error);
