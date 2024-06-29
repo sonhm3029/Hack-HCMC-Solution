@@ -51,7 +51,7 @@ const CameraScreen = ({navigation}) => {
     let file = await camera.current.takePhoto();
     console.log(file.path);
     setPhotoPath(file.path);
-    updatePhotoData({currentPhotoPath: file.path});
+    updatePhotoData({currentPhotoPaths: [file.path]});
     await CameraRoll.save(`file://${file.path}`, {
       type: 'photo',
     });

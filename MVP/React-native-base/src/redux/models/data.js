@@ -1,6 +1,6 @@
 const initState = {
   listData: ['ok', 'oki'],
-  currentPhotoPath: null,
+  currentPhotoPaths: null,
 };
 const data = {
   state: initState,

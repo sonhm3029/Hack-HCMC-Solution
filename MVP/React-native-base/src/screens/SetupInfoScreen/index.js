@@ -19,7 +19,7 @@ const SetupInfoScreen = () => {
   const [newLocation, setNewLocation] = useState('');
   const [locationList, setLocationList] = useState([]);
 
-  const photoData = useSelector(state => state.data?.currentPhotoPath);
+  const photoData = useSelector(state => state.data?.currentPhotoPaths);
 
   const onChangeLocation = value => {
     console.log('LOCATION', value);
@@ -57,17 +57,50 @@ const SetupInfoScreen = () => {
     }
   };
 
-  const handleSendData = async () => {
-    // Implement sending data to server logic here
-    // Example using axios:
-    // try {
-    //   const response = await axios.post('your-server-endpoint', { location, note });
-    //   console.log('Response:', response.data);
-    //   // Handle success or show message to user
-    // } catch (error) {
-    //   console.error('Error sending data:', error);
-    //   // Handle error or show message to user
-    // }
+  const handleSendData = () => {
+    const new_loc = location?.value?.trim();
+    if (!new_loc) {
+      Alert.alert('ERROR', 'Please select location!');
+      return;
+    }
+
+    const formData = new FormData();
+    for (const [index, path] of photoData.entries()) {
+      console.log(path);
+      const file = {
+        uri: 'file://' + path,
+        type: 'image/jpeg', // or the appropriate type of your image
+        name: `image${index}.jpg`,
+      };
+      formData.append('files', file);
+    }
+    formData.append('location', new_loc);
+    formData.append('note', note);
+
+    axios
+      .post(URL_SERVER + DATA_API, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      })
+      .then(response => {
+        // setData(response.data);
+        if (response?.data?.code !== 200) {
+          throw new Error(response?.data?.message);
+        }
+        setLocation(null);
+        setNote(null);
+        Alert.alert('SUCCESS', `Success upload image to location ${new_loc}`);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+        Alert.alert('Error', error?.message);
+      })
+      .finally(() => {});
+  };
+
+  const onChangeNote = text => {
+    setNote(text);
   };
 
   const getLocationData = () => {
@@ -134,7 +167,7 @@ const SetupInfoScreen = () => {
             multiline
             numberOfLines={4}
             value={note}
-            onChangeText={text => setNote(text)}
+            onChangeText={onChangeNote}
           />
         </View>
       </View>
