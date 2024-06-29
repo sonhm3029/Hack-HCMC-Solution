@@ -11,7 +11,3 @@ marshmallow==3.20.1
 ultralytics==8.2.41
 paddlepaddle==2.6.1
 paddleocr==2.7.3
-google-generativeai==0.6.0
-vietocr==0.3.13
-opencv-python==4.6.0.66
-unidecode==1.2.0

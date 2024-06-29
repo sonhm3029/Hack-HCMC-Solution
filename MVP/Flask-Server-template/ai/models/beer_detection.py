@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import torch
 
-model = YOLO(r"ai\weights\v8m_beer_detection\best.pt")
+model = YOLO(r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_beer_detection/best.pt")
 classes = model.names
 
 
@@ -15,6 +15,6 @@ def obj_counting(arr, names):
     return result
 
 def get_response(img_path):
-    results = model(img_path)[0].boxes.cls
+    results = model(img_path, device = 'cuda')[0].boxes.cls
     return obj_counting(results, classes)
     

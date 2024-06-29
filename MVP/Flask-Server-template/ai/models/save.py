@@ -2,7 +2,6 @@ from ultralytics import YOLO
 import torch
 import numpy as np
 import cv2
-from concurrent.futures import ThreadPoolExecutor
 
 # Load models
 model_seg = YOLO(r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_drinking_area_segmentation/best.pt")
@@ -17,7 +16,8 @@ def obj_counting(arr, names):
     result = {names[int(element)]: int(count) for element, count in zip(unique_elements, counts)}
     return result, sum(result.values())
 
-def get_mask_img(results, image):
+def get_mask_img(results, img_path):
+    image = cv2.imread(img_path)
     masks = results[0].masks
     final_mask = np.zeros((image.shape[0], image.shape[1]), dtype=np.uint8)
 
@@ -34,36 +34,23 @@ def get_mask_img(results, image):
 def check_in_mask(boxes, mask):
     return [np.any(mask[int(y1):int(y2), int(x1):int(x2)] > 0) for x1, y1, x2, y2 in boxes]
 
-def run_segmentation(image):
-    return model_seg(image, device='cuda')
-
-def run_detection_beer(image):
-    return model_detec_beer(image, device='cuda')
-
-def run_detection_human(mask_img):
-    return model_detec_human(mask_img, device='cuda', classes=[2])
-
 def get_response(img_path):
-    image = cv2.imread(img_path)
+    results_seg = model_seg(img_path, device='cuda')    
+    mask_img, final_mask = get_mask_img(results_seg, img_path)
 
-    with ThreadPoolExecutor() as executor:
-        future_seg = executor.submit(run_segmentation, image)
-        future_detec_beer = executor.submit(run_detection_beer, image)
+    # Detect beers
+    results_detec_beer = model_detec_beer(img_path, device='cuda')
+    beer_result, beer_counting = obj_counting(results_detec_beer[0].boxes.cls, classes_detec_beer)
+    beer_boxes = results_detec_beer[0].boxes.xyxy.tolist()
         
-        results_seg = future_seg.result()
-        mask_img, final_mask = get_mask_img(results_seg, image)
+    # If no beers detected, return empty dictionary
+    if beer_counting == 0:
+        return {}
 
-        results_detec_beer = future_detec_beer.result()
-        beer_result, beer_counting = obj_counting(results_detec_beer[0].boxes.cls, classes_detec_beer)
-        beer_boxes = results_detec_beer[0].boxes.xyxy.tolist()
-        
-        if beer_counting == 0:
-            return {}
-
-        future_detec_human = executor.submit(run_detection_human, mask_img)
-        results_detec_human = future_detec_human.result()
-        human_result, human_counting = obj_counting(results_detec_human[0].boxes.cls, classes_detec_human)
-        human_boxes = results_detec_human[0].boxes.xyxy.tolist()
+    # Detect humans
+    results_detec_human = model_detec_human(mask_img, device='cuda', classes=[2])
+    human_result, human_counting = obj_counting(results_detec_human[0].boxes.cls, classes_detec_human)
+    human_boxes = results_detec_human[0].boxes.xyxy.tolist()
 
     json = {}
 
@@ -75,7 +62,7 @@ def get_response(img_path):
         beers_in_mask = check_in_mask(beer_boxes, resized_mask)
         humans_in_mask = check_in_mask(human_boxes, resized_mask)
         
-        beer_counts = []
+        beer_counts = []  # Changed to a list
         for idx, in_mask in enumerate(beers_in_mask):
             if in_mask:
                 beer_label = classes_detec_beer[int(results_detec_beer[0].boxes.cls[idx])]
@@ -91,4 +78,6 @@ def get_response(img_path):
             json[beer_type]["human_count"] += min(human_count, count)
             json[beer_type]["beer_count"] += count
         
+        
+
     return json
