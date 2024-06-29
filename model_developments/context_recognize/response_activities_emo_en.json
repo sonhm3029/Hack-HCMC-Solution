@@ -1,0 +1,3242 @@
+[
+  {
+    "path": "339086889_640857151198441_1242080333900929951_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\", \"looking\"],\n  \"emotion\": [\"normal\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339106997_240052968403629_6221929635848776686_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"standing\"],\n  \"emotion\": [\"happy\", \"enthusiastic\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "339109866_552916960316901_1897594131206124006_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339112603_169774415941391_4171523565231597340_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"posing for picture\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "339131935_1653906628402872_8106312436635494789_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339156800_1615752782226590_7387558099080527801_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"gathering\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339257501_6288951504483452_8203819138619862821_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up poster\", \"shopping\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339290348_1231890017533212_5410092653551864501_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "339339661_3677070212520199_7368216823297152905_n.jpg",
+    "response": "{\n  \"context\": \"office\",\n  \"activity\": [\"posing for photo\", \"holding beer bag\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "358131089_1598284357678845_8367029803511623159_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "384205570_1487768838624637_8540634751797122453_n.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "384243461_1487768808624640_358195715433339726_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\", \"hanging up poster\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "384246252_1487768668624654_6048319948555586431_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"looking\", \"selecting\"],\n  \"emotion\": [\"neutral\", \"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "384266503_1487768735291314_4528414664660831976_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "384268025_1487768955291292_2456467041997840771_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\", \"loading\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "386091680_1013539026435044_8737754416891620796_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking shelves\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "386097155_1354743482108009_5689566462162687368_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"give money\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "386098466_1354743555441335_6856847736733349944_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"beer sales\"],\n  \"emotion\": [\"happy\", \"interested\"],\n  \"effectiveness\": \"good\"\n}"
+  },
+  {
+    "path": "386100590_1013539326435014_1583404372853116418_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "386104504_1013538503101763_6755759797841464310_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"arranging goods\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "386108835_1017446206044326_8188641532059031273_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"working\"],\n  \"emotion\": [\"happy\", \"concentrated\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "386729146_1591962184977729_954402689995656162_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "386750832_1591962384977709_6124475163934551636_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387020328_694363279492210_3880800975667777715_n.jpg",
+    "response": "```json\n{\n  \"context\": \"truck\",\n  \"activity\": [\"loading\", \"transporting\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "387022802_1591962414977706_452400389066652314_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387023172_1591961961644418_7592132643845089234_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"selling beer\", \"displaying beer\", \"beer promotion\", \"drinking\", \"shopping\"],\n  \"emotion\": [\"interested\", \"happy\"],\n  \"effectiveness\": \"can be improved by adding more interaction with customers\"\n}"
+  },
+  {
+    "path": "387045756_1591961698311111_4012035984136828163_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387051090_1591961434977804_5342260036583008482_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up poster\", \"hanging sign\", \"working\", \"selling\"],\n  \"emotion\": [\"focused\", \"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387055941_1591962444977703_7365397307620782024_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387055948_1514051159430574_9207962927285266339_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387065683_1591961751644439_3472369071143731125_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"arranging\", \" stocking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387065803_1591961821644432_3820807605696397307_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"sitting\", \"talking\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387101606_694363199492218_9056737839565329925_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387116883_1591962138311067_5807984920771393293_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "387131453_1407801556747024_5296296912329793179_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"hanging banner\", \"standing\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387225316_1591962491644365_6667620331234426321_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"hanging sign\", \"selling\", \"advertising\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387749064_1490853818418488_6926229958910164959_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387756952_1490853628418507_2595351551210020553_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387764665_1490854188418451_5323966899418505751_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387768099_1490854345085102_110569961167783639_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387772849_290834257228996_5897573214962991124_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387776532_1490854291751774_117157490950495458_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387780851_1490853955085141_8805351177075988771_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387792437_1499962164179099_5036152900747385591_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"prize giving\", \"promotion\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "387796445_1566204017544134_7783994748213481745_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387797235_1566203454210857_937272550451067267_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"group photo\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387799422_1566203864210816_4555076786537359468_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"working\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387809817_290838783895210_3432497161116814006_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387810150_1407801673413679_6835866395864216349_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387818861_1407801603413686_1396788399155354753_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"placing poster\", \"arranging\"],\n  \"emotion\": [\"focused\", \"concentrated\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387827346_290834223895666_5855191025381447556_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"advertising\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "387831706_290834207229001_6550523109703175409_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387838738_290833650562390_3219249912588202039_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying water\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387846549_290833813895707_2219543282101634713_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387847273_1490854321751771_7935653654540950216_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"standing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387847399_290834170562338_4658377902257941669_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"riding motorcycle\", \"advertising\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387848191_290834270562328_939906400732772205_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387850319_290834193895669_1226550461446249037_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"talking\", \"standing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387850436_290834107229011_4197214098921155118_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"talking\", \"promotion\", \"holding\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387851015_1566203490877520_75428571546599051_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"arranging product\", \"placing ads\", \"helping customer\"],\n  \"emotion\": [\"focused\", \"busy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387851169_290834280562327_5794569604617843317_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "387857877_290834043895684_947292076174114658_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"putting poster\", \"promotion\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387864843_290833877229034_8471555047451854883_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "387867597_290834323895656_6263744374101460259_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up poster\", \"working\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391518429_694363149492223_8269035811592062308_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\", \"sitting\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391532407_694363366158868_7291069972810509351_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391534969_1522404955257572_1972674178736249863_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391539155_1017446319377648_2901711249338074873_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"advertising\", \"putting up poster\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391540824_694363129492225_2021772818145568283_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"playing pool\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391569885_1017446346044312_596237506755880635_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up a poster\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391575524_1574022273334996_168546885256259842_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"dining\", \"parking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391577614_1574022540001636_4572134634266421212_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"motorbike parking\", \"walking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391578436_1574022583334965_7020940771787464879_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"grand opening\", \"celebrating\", \"decorating\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "391579470_1017445966044350_1763712255814638403_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391580552_1017446269377653_4375064474277920130_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"hanging banner\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391580597_1574022310001659_7736829296436526955_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"street advertising\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391581904_1574022430001647_3105265449742097894_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"sitting\", \"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391583253_1574022300001660_5425610107095240245_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "391583298_1013538733101740_8448442954645451261_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"selling\"],\n  \"emotion\": [\"happy\", \"interested\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "391586820_1017446042711009_8367234531362188747_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391587786_1013538886435058_5886808362588102291_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391589640_1013538949768385_4735573816770585856_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391591785_1017445899377690_3659680325025550253_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391600066_1576675116403045_5535017325294656625_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"standing\"],\n  \"emotion\": [\"serious\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391601076_1576674719736418_314276076828843190_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"parking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391609759_1017446122711001_877190024747402016_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"advertising\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391610255_1017446402710973_3790008465375447845_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391619748_284206904525787_2335026298161327638_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "391663693_1511955526308366_5808052731980665014_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"sitting\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391666555_1511959609641291_157444956300876693_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"drinking\", \"promotion\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "391759801_1335255930710582_4081805917951350400_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"talking\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "391761198_1335255874043921_1196654303679998210_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"motorbike parking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "391762451_1354743522108005_1574035439976960238_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"giving gifts\", \"motorbike\", \"advertising\"],\n  \"emotion\": [\"happy\", \"excited\", \"interested\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "391762728_1576675213069702_1015341381390206876_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"sitting\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392742704_1487768885291299_6308390629556641177_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up signage\"],\n  \"emotion\": [\"focused\", \"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392744864_1487768915291296_6815544795659972982_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"climbing\"],\n  \"emotion\": [\"happy\", \"attentive\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392746517_1487768698624651_841349179722188416_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "392755303_1487768608624660_4710302741918135689_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "392879127_1598274034346544_8643975106635506379_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"checking\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392882042_1518311362337887_7770744858177896138_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"riding motorcycle\", \"delivery\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392890275_1487768971957957_2801300153487811143_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392926079_1473462793387928_2687907696307627705_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"laughing\"],\n  \"emotion\": [\"happy\", \"joyful\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392928027_1473462833387924_8796956005763000569_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392931516_1598273854346562_2030974830963907513_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392932342_1598273687679912_3630387540245828016_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up posters\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392936581_1518311262337897_6474165508476818673_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"walking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392938354_1473462403387967_5428610943661687653_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"sitting\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392938727_1473462690054605_7846262346871646416_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392939506_1598298117677469_2576355105536960519_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "392939650_1598273944346553_1407275250113770772_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"putting up poster\", \"advertising\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": \"need to be improved, put the poster more straight\"\n}"
+  },
+  {
+    "path": "392940260_1598274044346543_1175704712751494323_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"advertising\"],\n  \"emotion\": [\"happy\", \"enthusiastic\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "392940469_1473462493387958_3676932310230442087_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"advertising\"],\n  \"emotion\": [\"happy\", \"interested\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "392940627_1598273881013226_5530653976607831810_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "392945145_1598289661011648_4410577519489740055_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392945160_1473462936721247_8310263440716804515_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"posing\", \"standing\", \"waitress\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392945446_1473462643387943_6572804552123687289_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "392946755_1473462776721263_8061139004562030711_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"waiting\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "392953348_1424169835196198_1053448315446135820_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"socializing\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393184405_1424169565196225_714422889048698744_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"gathering\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393229770_1511959829641269_6232098408290454441_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"hanging poster\", \"drinking beer\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393289762_1511959652974620_7413746195496383541_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"serving food\", \"ordering food\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393293012_1511959462974639_1187687641056606577_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "393305706_1473462876721253_3378788128604994244_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393308517_1473462883387919_5015656530836931078_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393309507_1598274067679874_2070061138025841902_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"looking at poster\", \"walking\"],\n  \"emotion\": [\"interested\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393310180_1598290884344859_1449623289457401469_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "393312641_1473462720054602_2491137065458757391_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"standing\", \"posing\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393313031_1511959622974623_3952214635542438586_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"hanging banner\", \"installation\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393345582_1511959356307983_6237459911579646918_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "393349947_1511959509641301_6689022656373723187_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393350095_1473462653387942_4274820152242992968_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393351309_1473462450054629_7892754807422852523_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"serving\", \"ordering\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"attentive\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393352598_1511959426307976_4157025216639654779_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393362252_1473462820054592_1782558209848420914_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"toasting\", \"eating\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393365380_1473462636721277_8581821530686421176_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"posing for photo\", \"holding beer\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393492149_1511959392974646_6803988858718277206_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"looking at the poster\"],\n  \"emotion\": [\"interested\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393501575_284207011192443_8055832860002454113_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"advertising\", \"putting up sign\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393501641_989485492351859_7623822210873417290_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\", \"smiling\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393573435_284207094525768_8076233797085027316_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"deliver\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "393595880_1526145621550172_3416079670957718_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"buy beer\", \"purchase\"],\n  \"emotion\": [\"happy\", \"satisfied\"],\n  \"effectiveness\": \"need to be improved\"\n}"
+  },
+  {
+    "path": "393646343_1526145428216858_200205028892021233_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying beer\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393671900_1526145361550198_3210635424860504563_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "393684213_1511959502974635_543362755795843210_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393685996_1511959256307993_1920105672071059868_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393687269_306439798757366_1235137213342986863_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "393688892_1511959586307960_6567692194245504504_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"holding up a poster\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393690259_1511959576307961_9134622921137299873_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393690263_1511959702974615_5033964893391503567_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393693448_1511959382974647_5479452927742951443_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"sitting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393716123_1511959592974626_3919092559106391620_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking beer\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393718344_989485589018516_4800144503560480507_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "393718631_1511959572974628_8613066752508371853_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393720584_989485619018513_3872840461415921732_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "393731707_1526145271550207_4324658619298410956_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393741722_989485635685178_4934951808707944615_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "393764343_989485289018546_8516479829318932546_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "393774095_284206987859112_8053378344369545327_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\", \"selling\"],\n  \"emotion\": [\"happy\", \"satisfied\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393775441_284206934525784_7543898455645174686_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"serving\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393776820_1473462606721280_8960419818450107886_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393781278_1511959316307987_8586680716151433942_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393782099_1511959526307966_1859391726287584328_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"toasting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393790141_1518311312337892_1614289077886757475_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\"],\n  \"emotion\": [\"happy\", \"interested\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "393802110_1344858083063339_8329635865348730527_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "393804343_1473462710054603_2578262037936366061_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393808375_1473462800054594_3839088903681202747_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"socializing\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393809091_1473462700054604_119107876990021192_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"talking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393813642_1473462670054607_658460808882015449_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393814235_1424169741862874_1645199897893254476_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"gathering\"],\n  \"emotion\": [\"happy\", \"joyful\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393817790_306439788757367_2796288767379113939_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"working\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393821401_1344857959730018_4446036631046657122_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "393825375_1598274764346471_4419242013555981773_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"putting up posters\", \"hanging signs\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "393895580_297097329936022_8269972983727778205_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"selling\"],\n  \"emotion\": [\"happy\", \"attentive\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "393985492_297097909935964_4151170934303147948_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "393997290_297097386602683_5959639729587514147_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"working\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394013206_297097369936018_3080738092015919081_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394071728_297097583269330_3901869781416596098_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394273004_1502822153786703_2791036704043659806_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "394277360_1502822113786707_386984986530816235_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"dining\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394281507_1502822197120032_6624081623090210466_n.jpg",
+    "response": "```json\n{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "394285469_1502822163786702_7173625966704813735_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394288845_1502822243786694_708371652590756289_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394304084_297097476602674_7510184955677373597_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"selling\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394309097_297097339936021_1207947743206471012_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"loading\", \"delivery\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394310511_297097616602660_6223276899760407907_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394321454_297097936602628_6864630983335632904_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394369024_297097533269335_9147613027686045007_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"working\", \"standing\", \"picking up\", \"stocking up\"],\n  \"emotion\": [\"neutral\", \"concentrated\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394370311_297097573269331_7154233379197787019_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"reaching for item\"],\n  \"emotion\": [\"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394453666_297097286602693_738457513302471325_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "394466042_297097439936011_8499248004051353957_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\", \"selling\"],\n  \"emotion\": [\"happy\", \"normal\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394519010_1557765244962981_6491116738309042007_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394549427_1344857133063434_813234101573638069_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "394568078_1344858273063320_6966783832666112886_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394629062_1344857916396689_8461069090562038439_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"looking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394629093_1344858183063329_5040501765125694558_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"arranging product\", \"selling\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394629552_1344858036396677_9189463634128048931_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394633000_1344857953063352_894745401076453409_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394633027_1344857919730022_8330904213679001607_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394633027_1344858323063315_2950790613133269365_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394640368_1344858193063328_7810143397575139819_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394647086_1344858239729990_5147260944381452304_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "394647666_1344858003063347_8558213391763112939_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394648585_1557765208296318_6445087328226760185_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"toasting\"],\n  \"emotion\": [\"happy\", \"joyful\", \"excited\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "394650591_1344858353063312_1895488018569104020_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "394824033_1557765274962978_8795778674064389052_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"toasting\"],\n  \"emotion\": [\"happy\", \"joyful\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395056297_1557765294962976_7226510687446884851_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"smiling\", \"toasting\"],\n  \"emotion\": [\"happy\", \"joyful\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395059868_1557765254962980_9072186409011640873_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395084371_1557765264962979_2584291125988669677_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395129608_1557765234962982_8696993782934754036_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"toasting\", \"talking\", \"laughing\"],\n  \"emotion\": [\"happy\", \"joyful\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395149275_1468226743910776_7122217409120890786_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395155172_1479778949423503_2767067021298187455_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"serving\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395160659_1090195735305388_8216198110386675535_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395172970_1479778822756849_7490598810985549616_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395192646_1479778449423553_3151471487253594480_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395192967_1479778692756862_1942391902045173369_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395198540_1479778662756865_9054246025217095425_n.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"display product\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "395214437_1479778759423522_4201172698996182836_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "395217496_1479778882756843_7685956153332673009_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"dining\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395224874_1479778816090183_2620426683682246937_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395230606_1344858253063322_6337621406178341733_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395230651_1344857163063431_7001023707528886593_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "395233216_1344858153063332_8475232363201345143_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395238919_1344858126396668_7479227498141788573_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"putting up posters\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395240459_1344857859730028_7277491061069569152_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395263754_1090193321972296_5937844121943522494_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395269731_1090195811972047_5292934424447396419_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"talking\", \"posing\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395299208_1090195681972060_5047671760494882111_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"standing\", \"smiling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395299434_1090195661972062_685100018976080982_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395332646_1344856869730127_4910883754668965203_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395343226_1479778896090175_5377337658463077799_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395371205_1344857189730095_2451672132356147610_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395420349_1344856993063448_5942982694358928540_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "395478510_1344857679730046_2041797534916119776_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395659560_1448555259210297_5715495415738601952_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395690542_1507602863415029_1125584075157911480_n.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"presenting\", \"award\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "395692206_1448558355876654_9079808140923270000_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"promotion\", \"group photo\", \"posing\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "395692870_1507602993415016_132048694443638631_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"give awards\", \"take photo\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "395699525_1344858389729975_1720563487022694481_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "395723129_1344858223063325_8245302635482059502_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"looking\", \"serving\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "395726012_1344858076396673_2898791719824239325_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "395928307_1508708396637809_6581220416679935070_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"promotion\", \"posing for photo\", \"group photo\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": \"effective\"\n}\n```"
+  },
+  {
+    "path": "395930858_1450198302379326_140897503636078862_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "395936564_1508708596637789_7489055227449913071_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"selling beer\", \"standing\"],\n  \"emotion\": [\"happy\", \"focused\"],\n  \"effectiveness\": \"need improvement\",\n}"
+  },
+  {
+    "path": "396016408_1508708113304504_7573791580358602887_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "396053736_1508708536637795_8912731142735054213_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"posing\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "396430816_1508708473304468_483754844703116408_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "396470097_1508708616637787_3655292410361358338_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling beer\", \"posing for photo\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "396499671_1508708633304452_1031903617622642528_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"talking\", \"posing for photo\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "397828519_1543699523034277_8336663958938604374_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "398427509_1503989387111759_6164517675935910666_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "398475593_1503989213778443_2968274332802214206_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"happy\", \"professional\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "398508571_1503989180445113_2258889643292081246_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"posing\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "398587557_1503989283778436_4709800206792414662_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"standing\", \"smiling\", \"sitting\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "398587925_1503989250445106_5620921474632595154_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "399711695_122139230600029407_7002669807219246337_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"chatting\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "400033529_1005611540735362_1315898521044627358_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"standing\", \"posing for photo\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "400158890_1354660835416397_7493359010761214326_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "401061142_1383925165810272_2285294195203711405_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401066714_1301787527366024_6821482193709177797_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "401382094_1383925129143609_6956442056138821375_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401394892_1517600605754113_3315770207433006247_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401451325_1517600552420785_4413431637470072595_n.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"buy beer\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "401570428_122121603488073562_1416837255978875225_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "401667690_122121610808073562_4548842503007870640_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display\", \"sale\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401755120_1354660862083061_8889270789394040114_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401774038_1354660908749723_3014270695088995430_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401774695_1354660855416395_2897698731178445871_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "401778004_1354660888749725_7893845047598472303_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401802780_1517600652420775_8643687799671890948_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "401836719_1354660712083076_6369185316681759052_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"ordering\", \"receiving\", \"smiling\"],\n  \"emotion\": [\"happy\", \"satisfied\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "401848678_1042325203756067_5100555833098820387_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "402025920_1357721841770822_6092538468060104558_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"posing\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "402039059_1512022486198129_1826151940782675795_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "402097988_1468744350524804_6982084575429578137_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "402176636_1517596302421210_7246545020244331239_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "402526688_1556375895097146_7965715285035675743_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"product display\", \"promotion\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "402594179_1042325233756064_2517026904733118559_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "402597510_1448414485891421_6011679295291902730_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"displaying products\", \"shopping\", \"advertising\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "402601543_1448414549224748_2294830277750871112_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "402653481_1556375838430485_6178474046343507543_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "402657238_1357721885104151_6307986781781577246_n.jpg",
+    "response": "{\n  \"context\": \"warehouse\",\n  \"activity\": [\"loading\", \"walking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "403156054_1301787480699362_4745860821243508034_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "403745082_1042325260422728_8750044365053117419_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"driving\", \"deliver\"],\n  \"emotion\": [\"focused\", \"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "404400434_1480886629311454_5091099426009949361_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "404452591_1480886759311441_9205062985149968491_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "404459875_1480886682644782_6845802886426949165_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display product\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "404526893_1133563567607875_6533975399103231774_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"purchase\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "404898845_729213659071267_4811104609868282352_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"displaying products\", \"decorating\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "404918892_729213752404591_6636272261329174934_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "404921988_729213725737927_180206068230446119_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "405233568_1470696986996207_5491902613704240275_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"promotion\", \"display\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "408156760_1141388720158693_6424768903873763019_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"beer promotion\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "408903718_1521157908728240_541739932688082102_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"paying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "409171440_1386412548979982_933667096302584865_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"posing for photo\", \"standing\", \"holding\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410239207_1386412578979979_2938225937706613774_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"standing\"],\n  \"emotion\": [\"happy\", \"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410337726_267282603008489_495542604467665320_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410390369_1404863963788911_309014063696852211_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410391465_1404863910455583_9088277057631570357_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "410440788_1404863840455590_7330608546920372721_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "410462482_1404864003788907_8500206393182681139_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410511216_1404864010455573_6913834972543943497_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"posing for photo\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410655524_331985556284478_7431453999967114077_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "410798927_1546854052817292_6569956752029299050_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410808237_1546854076150623_5538080723912043015_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410808570_1546854016150629_5858965893577888861_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "410940114_1207804250609200_7264445970240949658_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "411296824_1067376914587816_646610454938653698_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "411330807_855689656303005_8202979746934091882_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "411380115_1499163740817076_2546534884819197435_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"product display\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "411395435_1067376757921165_6694098128914543476_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "411398005_1067376814587826_2469386698798060216_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"display\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "411740645_1392029615084942_1361346376045899054_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"working\"],\n  \"emotion\": [\"happy\", \"friendly\", \"helpful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "411966865_1526210631447124_5499566081544457483_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "412001684_1392029691751601_7723232988302593680_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "412459820_1498016127713470_3422999821954632037_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"posing\", \"thumbs up\", \"photo taking\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "412486355_1498016181046798_618078708920205527_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"celebrating\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "412574238_1498016174380132_6147412066632690144_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"decorating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "412588803_1167106754252437_1186652035843707793_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "412812522_1537369290443911_8303649616891774423_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\", \"satisfied\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "412872096_1559874104749502_2881976412721148837_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"gathering\", \"socializing\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "412879387_1559874064749506_4468528884682844796_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "412882368_1559874121416167_4591233577895112216_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"gathering\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "412918422_1537370540443786_6255297399150718317_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "412972437_260580460371384_370975920547992719_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"gathering\", \"talking\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "413015192_1392029701751600_3091983217845965105_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "413034578_1537370567110450_7489075553146856455_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "413834817_1559874094749503_3883563030104154026_n.jpg",
+    "response": "```json\n{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "413921207_1559874081416171_4343042001286467762_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414011446_1559874138082832_3199138835534994595_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"sell beer\", \"drinks\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414435260_1499162980817152_3606694316164332030_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"display\", \"promotion\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414450962_1526196234781897_652837424481329446_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "414453392_1526195861448601_2741985430227592430_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking goods\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "414455784_1526196064781914_2605732402020527215_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "414455978_1526196278115226_8748272651476223920_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"buying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414457630_1499163337483783_7955674211260951513_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"product display\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"highly effective\", \"well-organized\", \"eye-catching display\", \"christmas theme\", \"good marketing strategy\"]\n}"
+  },
+  {
+    "path": "414460667_1526196181448569_5925121950555102545_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414461067_1526196174781903_1789772807680614183_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "414470860_1526196138115240_1803974092840462900_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414474403_1526196148115239_1328199943240148926_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414480942_1526196261448561_5316780417253254098_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414481253_1526196098115244_4745561746252063303_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414562948_262377870191643_7064098674859570352_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414577904_1526210574780463_3056082106990735491_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414587107_262377853524978_36764812973278148_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414594561_262377720191658_2145279798137904261_n.jpg",
+    "response": "{\n  \"context\": \"home\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414594790_262377800191650_8666342639398050800_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "414605999_1526210591447128_7111521517203853333_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "414717594_1539766973524911_4126050778841610726_n.jpg",
+    "response": "```json\n{\n  \"context\": \"street\",\n  \"activity\": [\"promotion\", \"group photo\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}\n```"
+  },
+  {
+    "path": "414722504_1539767073524901_8176050576310039844_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"promotion\", \"celebration\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"effective\"\n}"
+  },
+  {
+    "path": "414949313_1420738502130925_1053193304422723071_n.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"posing for a photo\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "415330543_768733175271027_8251830884877636034_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415436011_1789578664847204_803616195177228699_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415446448_1789578541513883_6902167461072030449_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "415503212_1574352539970241_7947474706444189408_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stacking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "415670409_1378807363022105_6050771703982820718_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415715262_1378807526355422_4318017077643158398_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "415731115_1378807329688775_8670397529700176325_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415978719_1505397200193730_2957864470729558653_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415982548_1581284192606316_7574944548790140083_n.jpg",
+    "response": "{\n  \"context\": \"supermarket\",\n  \"activity\": [\"promotion\", \"posing\", \"shopping\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "415989028_1505397500193700_1583846503134434832_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "415997840_1505397033527080_1563851169301669208_n.jpg",
+    "response": "{\n  \"context\": \"supermarket\",\n  \"activity\": [\"shopping\", \"holding event\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "416008654_1581284089272993_6545981289592469541_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "416017038_1505397580193692_1550749247787174374_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "416017753_1505397976860319_8563387148105663578_n.jpg",
+    "response": "{\n  \"context\": \"supermarket\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "416020888_1581284115939657_1156252235540731795_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "416035142_1581284175939651_6810477408486432276_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"posing\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "416042809_1581284152606320_896901354593733702_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "416354170_401374009214458_8876140218944868580_n.jpg",
+    "response": "```json\n[\n  {\n    \"context\": \"street\",\n    \"activity\": [\"selling\", \"delivery\"],\n    \"emotion\": [\"null\"],\n    \"effectiveness\": \"null\"\n  },\n  {\n    \"context\": \"grocery store\",\n    \"activity\": [\"stocking\"],\n    \"emotion\": [\"null\"],\n    \"effectiveness\": \"null\"\n  },\n  {\n    \"context\": \"grocery store\",\n    \"activity\": [\"shopping\"],\n    \"emotion\": [\"null\"],\n    \"effectiveness\": \"null\"\n  },\n  {\n    \"context\": \"grocery store\",\n    \"activity\": [\"selling\", \"stocking\"],\n    \"emotion\": [\"null\"],\n    \"effectiveness\": \"null\"\n  },\n  {\n    \"context\": \"grocery store\",\n    \"activity\": [\"buying\"],\n    \"emotion\": [\"happy\"],\n    \"effectiveness\": \"null\"\n  }\n]\n```"
+  },
+  {
+    "path": "416848793_1494481008063271_7392042277607055736_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "416849497_1378807556355419_8212642161664993488_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "416858643_1378807143022127_7832988399394281207_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "416859511_1378807503022091_7042619320463189351_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "416868202_1378807303022111_6754838250434404660_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "417691478_1789578584847212_5943420567105362217_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "417711888_1378807569688751_3902898711754607059_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "417726701_1378807279688780_3952535210759860005_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "417728895_1378807516355423_3350272392284331560_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "417737837_1789578558180548_14953820920220279_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"displaying products\", \"stocking shelves\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "417739174_1789578674847203_533478501257000544_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "417740685_1789578698180534_2718788276511677078_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"ordering\"],\n  \"emotion\": [\"happy\", \"interested\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "417751866_1378807259688782_1242696975827993040_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "417762786_1789578634847207_2799253101686301078_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "417774179_1789578641513873_2961463233189048080_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "417803338_1378807383022103_4030216752386790222_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "418426694_1580596889344540_6508221161624258230_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418439135_1580597046011191_3223753085464412675_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418439639_1580596846011211_2879739899884353773_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "418457574_1580596949344534_3609049982740097153_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"standing\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418458131_1580596926011203_830077381429227985_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418462775_1580597062677856_7303682180097737575_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "418463054_1580596996011196_5825066117182742188_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418467174_1580597122677850_5003686026642183328_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"delivery\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "418468348_1580597099344519_9012496015149803442_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"socializing\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418731569_892349242384160_521184478900887229_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"relaxing\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418732037_892349889050762_6330101719192742012_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"singing\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "418735328_892348115717606_1080350090512358423_n.jpg",
+    "response": "{\n  \"context\": \"karaoke bar\",\n  \"activity\": [\"singing\"],\n  \"emotion\": [\"happy\", \"excited\"],\n  \"effectiveness\": \"highly effective\"\n}"
+  },
+  {
+    "path": "419569922_1580596939344535_4815547406545288719_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "419708486_1626364148102618_1138883741347107394_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419737603_1580596902677872_5439954212287421691_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"delivery\", \"riding motorbike\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419792331_1623944471677919_2402853718237461162_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "419792332_1623943758344657_7241733567393149520_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419817354_1623943488344684_8867248947282645445_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419827473_1623943608344672_6095461030871264817_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419830399_1623944025011297_703684221890035208_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419831447_1623944055011294_6733442603103788405_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxing\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419834263_1624733441599022_7556661602025876758_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419836626_1625606174845082_3251363336327191053_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"gathering\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419836633_1623943525011347_8300607306968542739_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"sitting\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419837299_1623944191677947_1694205750934229265_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"serving\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419840815_1623943981677968_108072750449059121_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419843700_1623944365011263_4071816224960002357_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419844084_1623943418344691_7884620629584096028_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419846818_1623944525011247_4467238168283163829_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419846958_1624733928265640_7132144891453599075_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419848955_1623944421677924_3137654618564726376_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419849598_1623943598344673_906956198714530668_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419849598_1623943958344637_7107282589781558340_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419849931_1623943788344654_4632623834126097363_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419852233_1623943708344662_3760052083425171309_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419852525_1623943435011356_6700631504796320982_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419853011_1623944271677939_6073599174995645126_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"serving\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419853056_1623944075011292_104806084289762303_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "419855023_1623944181677948_7906345203623472891_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"gathering\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419855209_1626364208102612_3938380853635599472_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419855235_1623943521678014_6159445796629801618_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"serving\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "419855621_1623943811677985_7281534787138735786_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"laughing\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419855684_1623944285011271_2426186952995636160_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419855731_1623943928344640_5188017139704353692_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419855749_1623943711677995_946310473248113377_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "419855888_1623943575011342_3701127196846497504_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419858620_1624733154932384_7384947701004203180_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419859094_1623944618344571_3204174961440997028_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419865209_1624733664932333_7985184854550651021_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419868859_1623944458344587_4024682261826911935_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419869004_1623943858344647_3939681049188573237_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419870877_1623944108344622_7632273395020192984_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoying\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419873707_1626585124747187_84331865755622320_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419873742_1624733848265648_8180592546806735599_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"enjoying\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419881958_1625603148178718_98105718401465775_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419887609_1624734241598942_6454474363908073212_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"sharing food\", \"enjoying\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419888308_1624734381598928_5285392769708264429_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419888717_1624733768265656_7721088307344540246_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419895592_1624733201599046_5164052847398677083_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419897104_1624733651599001_2901951728108990295_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419897329_1626364584769241_6355855669270314755_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419918361_1624734054932294_7831744248735159915_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"chating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419991719_1624733144932385_6194988758857478756_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419994643_1625606588178374_3338752623608213537_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "419995370_1625605901511776_2448435881661365058_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoying\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "419999630_1625606001511766_2355246098275432156_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420000778_1624734148265618_8100321208497494567_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420000804_1624733558265677_2754780980451926386_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420001435_1624733338265699_4061375015060958844_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420004326_1624734298265603_2719992849298477735_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420005438_1624733054932394_4103771974843358221_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420008724_1624733568265676_6603699349857973214_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"laughing\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420010361_1624733308265702_917237707677473095_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420010543_1624733938265639_2916563038364379199_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420011968_1624733374932362_7248028773795456834_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420011974_1624733748265658_4698178801824984039_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420018201_1624733384932361_191307020334608929_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420018212_1624734378265595_113694025917076985_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420023042_1624733584932341_439100694333897540_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420024738_1624733778265655_7084093254444198078_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420024797_1624733244932375_6035219714012153926_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420029239_1624734108265622_2069292334743196217_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420035059_1624734318265601_1146715364878150491_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420039104_1624734024932297_2148048914178114539_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420039360_1625606364845063_1569500902029608223_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420039383_1625602978178735_6191628627576147063_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"relax\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420039787_1625603168178716_7879215353154625638_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420112276_1625606244845075_439450007385279767_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420113805_1624734004932299_8367245475297019310_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420115405_1624733111599055_1034583305898715119_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420115748_1625602798178753_1701964630478883778_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420116730_1625603201512046_8978141294951413485_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420117168_1625602814845418_8797633355890227688_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420118367_1625603751511991_3283119456976179449_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420119438_1625606524845047_1264332074100263390_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"using mobile phone\"],\n  \"emotion\": [\"relaxing\", \"enjoying\", \"focused\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420120070_1625606684845031_8623118936631058430_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420121256_1625606928178340_1149557826905226090_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420121553_1625602621512104_5601727459240046372_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420121992_1625605898178443_5992110205554670579_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420122048_1625606758178357_5047399441053936158_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420122848_1625606458178387_8877371464104725006_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"using mobile phone\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420123348_1625603478178685_5085159634204724910_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420123438_1625602958178737_2738955174078648519_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420123480_1625603581512008_6788493731074723317_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420123918_1625603628178670_2163838274392352837_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420124001_1625602871512079_3569454697860381482_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420124131_1625606901511676_1970180724941797402_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420124135_1625607061511660_1922094573808731459_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420124153_1625606481511718_7965666682487312432_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420124969_1625606084845091_2498264702879789590_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420125047_1625606354845064_1573192660167430077_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420128199_1625606738178359_5645274967481784251_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\", \"gathering\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420128657_1625603698178663_142831207172234054_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420129321_1625603444845355_3826891298954126689_n.jpg",
+    "response": "{\n  \"context\": \"home\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420129646_1625603048178728_2415737396769269871_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420129757_1625606404845059_2723495165776513564_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420129760_1625606801511686_2407422508056046657_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420130200_1626585554747144_7788583829827298488_n.jpg",
+    "response": "{\n  \"context\": \"outdoor\",\n  \"activity\": [\"drinking\", \"sitting\", \"talking\", \"using phone\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420130366_1625606591511707_1303818070327303031_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"talking\", \"pouring\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420130446_1625606224845077_1665985447635591756_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420130709_1625602764845423_7088236562855045709_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420130758_1625603088178724_2441070975831572678_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420137685_1626364121435954_6725632398140498582_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420141940_1625606028178430_789003302409749256_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420162815_1626364851435881_5544513070146877004_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"relaxed\", \"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420172698_1626584804747219_1208586237110791382_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420176457_1625602694845430_642208270787317631_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420176984_1626364291435937_5297866555323794884_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420178085_1626585391413827_2026642279976805544_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420178728_1625603234845376_2537371043025752312_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420179178_1625607028178330_5866974042392322997_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420182553_1625605954845104_6524300124666814368_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420182646_1625603011512065_9000757824445301485_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\", \"laughing\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420183191_1625606321511734_6916457268837139185_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420187532_1580596966011199_8206295618338449307_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420188057_1625606024845097_6106537255379276330_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420189187_1625606961511670_57945415087944141_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420191170_1625603614845338_956201227285063233_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"toasting\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420192637_1625606878178345_2292525610243556562_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420193104_1625606991511667_5306077907677121275_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420195737_1626584984747201_2845424615662576572_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420197048_1625603328178700_4631563377919627179_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420199076_1626585018080531_3101679940568289484_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420200157_1626585248080508_7274141829180667087_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420200522_1580597012677861_3445982829462596690_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "420222506_1626585141413852_1444312115119620979_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420242571_1626585108080522_4555098080839295179_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420242772_1626585574747142_5685620285943566036_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxing\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420243622_1626585228080510_7257358169354755398_n.jpg",
+    "response": "```json\n{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "420252491_1626585644747135_1520436930829970269_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"laughing\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420252919_1626585008080532_6810307391672991368_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420271765_1626584831413883_2491249322663887017_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420281250_1626585808080452_2230121290993291910_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420310780_1580596849344544_8961955390665822543_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "420438041_1625603121512054_7337032800497964360_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420444625_1625606841511682_4630824498960651195_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"socializing\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420449805_1625606281511738_2997373235746029133_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420454473_1626364738102559_1158791952835354322_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420460258_1626364404769259_1060373358648440666_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420496881_1626364884769211_8708229021711051190_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420499548_1626364111435955_254394664523664285_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420501770_1626364301435936_6753680592586562753_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420504141_1626364408102592_1268633201494117168_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420504965_1625602644845435_2778130536862289229_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420513665_1626364501435916_8257992390471721675_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420515664_1626365068102526_5157938328468982131_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420517380_1625602861512080_921442023372098118_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420518495_1626364674769232_3409825943626351950_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"serving\", \"talking\", \"looking at phone\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"attentive\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420521339_1626364684769231_2399311006911655254_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420522280_1626364311435935_5089294480196326823_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420522317_1626364658102567_4051921981386850838_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"serving\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420526027_1626364941435872_7073493242132430819_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"sitting\", \"drinking beer\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\", \"friendly\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420531037_1626365031435863_3106844770485315918_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "420533778_1626364511435915_3933999231869951234_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420535144_1626364558102577_1958420738468268923_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420535145_1626584878080545_91847275568713707_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\"],\n  \"emotion\": [\"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420539107_1626364611435905_4159946742378918150_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420541137_1626364221435944_9025180733823185883_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "420983931_1629656061106760_1237811006760681720_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421120371_1629655434440156_7431562004678099554_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421125541_1629655977773435_469264603756898482_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421125555_1629656081106758_5088772680118344480_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421130858_1629656567773376_4656409903727919088_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421139914_1629655587773474_7688641230785375711_n.jpg",
+    "response": "```json\n{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "421150264_1629655567773476_5996703129842146369_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421150757_1629656491106717_1663366108446226231_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"smoking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421155660_1629656007773432_4655447793292592291_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421160262_1629655767773456_7674722445445350840_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\", \"using phone\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421161079_1629656684440031_8190438198963924353_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421166391_1629655924440107_7288845900635535985_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421167507_1629655954440104_1287293702014418769_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421167534_1629656637773369_5723540252118174915_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421174143_1629656437773389_467938295224273060_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421175132_1629656141106752_7140372074157972969_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421185066_1629656181106748_2901841714528311119_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421189729_1629655897773443_1145389078897976477_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421190258_1629656164440083_172153689977155479_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421190269_1629656601106706_2657475509507639656_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"sitting\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421199593_1629656364440063_8460591724157594076_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "421204940_1629655654440134_951845463462245239_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"gathering\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421205737_1629655464440153_79880095506259282_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421210311_1629656411106725_4225488195652451126_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421211237_1629656257773407_5431216816847771018_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421220638_1629656267773406_1997819782812015432_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421241062_1629655674440132_5315229124089727205_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "421293126_1629655424440157_3632000357402481915_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking beer\", \"sitting\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422068694_1629655731106793_1196186761944841631_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"enjoyable\", \"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422072593_1629655807773452_7392405231831507314_n (1).jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422072593_1629655807773452_7392405231831507314_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422089072_1629655637773469_317923482228457283_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422092656_1629656527773380_4782010333186222882_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422093067_1629656221106744_1491159518302027616_n.jpg",
+    "response": "{\n  \"context\": \"bar\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "422097796_1629655851106781_861291083988686225_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoying\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422140752_1629656627773370_4162878648651362677_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "422295556_1629656291106737_6662624283968983593_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "425734849_1565682270945946_1282325325266226825_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "425761818_1565682320945941_3527604111714300236_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "425805301_1565682207612619_7903767155222241766_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "425853935_1565682190945954_1857218855865698163_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"holding products\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "425853967_1565682260945947_4921719410554392818_n.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "429657814_1655270251878674_385249490255311887_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429667038_1655269365212096_486538117250554286_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"gathering\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "429668825_1655270761878623_8682508479389803996_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"celebrating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429669200_1655270728545293_6891109834815314674_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429673553_1655269325212100_392242141127609999_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429681980_1655270341878665_780731493139307441_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429682197_1655269418545424_1189784438057281616_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429684007_1655270175212015_6555900008351011215_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429687230_1655269565212076_8763227403339007809_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429742826_1655269708545395_52539977677409524_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429754040_1655270241878675_1074168692890434273_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429754095_1655270445211988_1493120665825909066_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"celebrating\", \"talking\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429757836_1655269971878702_2077388361122360947_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429758055_1655270628545303_3780371131853671924_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relax\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429761370_1655269468545419_6622284753313700522_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429761564_1655269555212077_492120129518375808_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\", \"sitting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429761848_1655269878545378_2410783101779906375_n.jpg",
+    "response": "{\n  \"context\": \"street food stall\",\n  \"activity\": [\"drinking\", \"toasting\", \"eating\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429765677_1655269785212054_7432015687945239703_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429776023_1655270355211997_7855149196836147914_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429776422_1655270018545364_1607935409678699150_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429779408_1655270515211981_1522186974193382712_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429779929_1655270171878682_4960286239699208936_n (1).jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429779929_1655270171878682_4960286239699208936_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429782907_1655270265212006_8570171477808808889_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"eating\", \"chatting\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429786215_1655269805212052_838709608331298472_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429786574_1655269681878731_4603478629353286513_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429786693_1655269861878713_5470880956647527522_n (1).jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"chatting\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429786693_1655269861878713_5470880956647527522_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429787202_1655269948545371_9146402865182842924_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429789885_1655269448545421_9092563009850753361_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429790172_1655270425211990_4841541340878544821_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null,\n}"
+  },
+  {
+    "path": "429794926_1655269595212073_4237656761750281868_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429794929_1655269351878764_5092746370609527597_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"sitting\", \"eating\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429806251_1655270325212000_5826529259067304808_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429807377_1655270558545310_7004116643684182511_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429808955_1655269655212067_5184499623510020816_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429812667_1655269508545415_7657763741500017299_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429813666_1655270718545294_2508483737060772788_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429823826_1655270638545302_453951769097117296_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"eating\", \"drinking\", \"gathering\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429824188_1655270448545321_2377252584193347767_n.jpg",
+    "response": "```json\n{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "429850214_1655269758545390_8887848960001598489_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429865020_1655270545211978_8473753778513094895_n.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"talking\", \"eating\"],\n  \"emotion\": [\"happy\", \"relaxed\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "429881186_1655270658545300_8011822514002222605_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"drinking\", \"eating\", \"talking\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "430034973_784715070457030_2693065313824376562_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"ordering food\", \"sitting\", \"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "430229113_1655269888545377_4211417298270845622_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "430862179_784715123790358_4623502939284352682_n.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"gathering\", \"group photo\"],\n  \"emotion\": [\"happy\", \"joyful\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "430870668_784715143790356_254256838319747407_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"stocking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "431989097_1612181406186088_6411142492653120910_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "432004327_1612181422852753_3611798162017449492_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"store product\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "432008281_1612181352852760_3201280862497014344_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "432012179_1612181392852756_6300683129831659207_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "432075746_1612181289519433_4911736832473849898_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "432624016_1612180416186187_8298357181235619415_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "432660917_1612181316186097_8828443966296793316_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"displaying products\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "432691573_1612181436186085_1847859867689082208_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "432754745_1612181449519417_6167557077696214031_n.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"happy\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500927_1705485488446.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500927_1705485489837.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500927_1705485490993.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66500927_1705935029655.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66500927_1705935031905.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500927_1705935033186.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66500954_1705494119451.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66500954_1705494121903.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500954_1705494123184.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500954_1707307474952.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66500954_1707307478092.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66500954_1707307480077.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501431_1705485002535.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501431_1705485005378.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "66501431_1705485008972.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66501431_1705485180833.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66501431_1705485183396.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501431_1705485187271.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying products\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66501431_1708602956542.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501431_1708602959495.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"choosing products\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66501431_1708602961854.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66501542_1706012188235.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66501542_1706012189532.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501542_1706012190891.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66501542_1706783379061.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66501542_1706783380920.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66501542_1706783382482.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying beer\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502055_1705581380220.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502055_1705581381173.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502055_1705581381798.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502055_1707301522727.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502055_1707301524227.jpg",
+    "response": "{\n  \"context\": \"restaurant\",\n  \"activity\": [\"eating\", \"drinking\", \"talking\"],\n  \"emotion\": [\"relaxed\", \"comfortable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502055_1707301540258.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"serving\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502060_1706024561827.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502060_1706024562593.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502060_1706024563014.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"stocking\", \"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502060_1708610441024.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502060_1708610441711.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502060_1708610442196.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"picking products\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502444_1706022209658.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502444_1706022211861.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502444_1706022213924.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"serving\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502444_1706866817116.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502444_1706866819975.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502444_1706866822382.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502444_1706866996021.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502444_1706866997443.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502444_1706866998349.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502587_1706532187339.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502587_1706532189433.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502587_1706532190464.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502587_1707220921916.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502587_1707220924041.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502587_1707220924853.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502597_1706177604797.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502597_1706177606235.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502597_1706177606938.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502597_1708611095007.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502597_1708611095741.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502597_1708611096366.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502597_1708612033656.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "66502597_1708612034609.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502597_1708612035063.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}\n```"
+  },
+  {
+    "path": "66502739_1705745934944.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "66502739_1705745936616.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502739_1705745937257.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502739_1706287606489.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "66502739_1706287607442.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502739_1706287608020.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502739_1706872049082.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502739_1706872050520.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502739_1706872051160.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502765_1705572974041.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502765_1705572975604.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502765_1705572976494.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502765_1708608985228.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502765_1708608985838.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"selling\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502799_1705497335771.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502799_1705497336537.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502799_1705497337099.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502799_1707222511883.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502799_1707222513337.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502799_1707222514352.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502810_1706186042799.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502810_1706186044643.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502810_1706186045393.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502810_1706634139202.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "66502810_1706634139984.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502810_1706634140499.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"advertising\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502821_1705484551389.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502821_1705484553748.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "66502821_1705484555295.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502821_1705934814074.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502821_1705934816215.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502821_1705934818277.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502830_1705499229434.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1705499230106.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1705499230715.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1708611241615.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502830_1708611242271.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502830_1708611242818.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"working\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502830_1708611252739.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66502830_1708611253411.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1708611253958.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1708611438644.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66502830_1708611440363.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66502830_1708611441113.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"neutral\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503090_1706008675754.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503090_1706008676786.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503090_1706008677442.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503090_1708432901227.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503090_1708432902165.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503090_1708432902899.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503205_1706093655646.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503205_1706093657318.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503205_1706093659318.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503219_1706632238104.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\", \"picking products\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503219_1706632240557.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503219_1706632241448.jpg",
+    "response": "{\n  \"context\": \"store\",\n  \"activity\": [\"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503219_1707124182568.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"browsing\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}\n```"
+  },
+  {
+    "path": "66503219_1707124185646.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503219_1707124187818.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"buying\", \"selling\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503302_1706014313838.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503302_1706014314791.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503302_1706014315448.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503302_1708432373497.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503302_1708432374606.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503302_1708432375497.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "66503673_1705593205092.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503673_1705593207076.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"buying\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503673_1705593207920.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503673_1708604589225.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503673_1708604590007.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503673_1708604590725.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503732_1705500046412.jpg",
+    "response": "```json\n{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}\n```"
+  },
+  {
+    "path": "66503732_1705500047287.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"selling\", \"drinking\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503732_1705500047803.jpg",
+    "response": "{\n  \"context\": \"street\",\n  \"activity\": [\"drinking\", \"having a drink\"],\n  \"emotion\": [\"happy\", \"enjoyable\"],\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503740_1706022803869.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503740_1706022807166.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66503740_1706022809151.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66503740_1706713471102.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503740_1706713477524.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66503740_1706713482118.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66504488_1706014267557.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66504488_1706014268541.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\", \"selling\", \"working\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66504488_1706014269244.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": \"null\"\n}"
+  },
+  {
+    "path": "66504488_1708603851694.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66504488_1708603852460.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n}"
+  },
+  {
+    "path": "66504488_1708603853225.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  },
+  {
+    "path": "66504507_1706624961447.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": [\"shopping\"],\n  \"emotion\": [\"null\"],\n  \"effectiveness\": [\"null\"]\n}"
+  },
+  {
+    "path": "66504507_1706624964744.jpg",
+    "response": "{\n  \"context\": \"grocery store\",\n  \"activity\": null,\n  \"emotion\": null,\n  \"effectiveness\": null\n} \n"
+  }
+]
