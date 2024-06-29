@@ -2,9 +2,10 @@ import {RouteName} from '../../constants';
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import {launchImageLibrary} from 'react-native-image-picker';
-import {useSelector} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 
 const HomeScreen = ({navigation}) => {
+  const updatePhotoData = useDispatch()['data'].updateData;
   const selectImagesFromGallery = () => {
     const options = {
       title: 'Select Images',
@@ -27,14 +28,12 @@ const HomeScreen = ({navigation}) => {
       } else if (response.customButton) {
         console.log('User tapped custom button: ', response.customButton);
       } else {
-        const selectedImages = response.assets.map(asset => ({
-          uri: asset.uri,
-          type: asset.type,
-          name: asset.fileName,
-        }));
+        const selectedImages = response.assets.map(asset =>
+          asset.uri?.replace('file://', ''),
+        );
         // setImages(selectedImages);
-        console.log(selectedImages);
-        navigation.navigate(RouteName.SetupInfoScreen)
+        updatePhotoData({currentPhotoPaths: [...selectedImages]});
+        navigation.navigate(RouteName.SetupInfoScreen);
       }
     });
   };

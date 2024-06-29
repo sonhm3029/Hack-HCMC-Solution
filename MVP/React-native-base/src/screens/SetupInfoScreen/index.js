@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import DropdownComponent from '../../components/DropDown';
-import {useSelector} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import {URL_SERVER} from '../../utils/axios-utils';
 import {DATA_API, LOCATION_API} from '../../constants/api';
 import {RouteName} from '../../constants';
@@ -21,6 +21,7 @@ const SetupInfoScreen = ({navigation}) => {
   const [locationList, setLocationList] = useState([]);
 
   const photoData = useSelector(state => state.data?.currentPhotoPaths);
+  const updatePhotoData = useDispatch()['data'].updateData;
 
   const onChangeLocation = value => {
     console.log('LOCATION', value);
@@ -91,6 +92,7 @@ const SetupInfoScreen = ({navigation}) => {
         }
         setLocation(null);
         setNote(null);
+        updatePhotoData({currentPhotoPaths: null});
         Alert.alert('SUCCESS', `Success upload image to location ${new_loc}`, [
           {
             text: 'OK',
