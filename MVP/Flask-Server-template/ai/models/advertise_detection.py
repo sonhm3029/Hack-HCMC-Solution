@@ -5,7 +5,10 @@ from unidecode import unidecode
 from utils.file import UPLOAD_FOLDER, getUniqueFileName
 import os
 
-advertise_detector = YOLO(r"ai\weights\v8m_beer_advertise\best.pt")
+import os
+
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+advertise_detector = YOLO(r"C:\Users\admin\Desktop\Hack-HCMC-Solution\MVP\Flask-Server-template\ai\weights\v8m_beer_advertise\best.pt")
 paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=True)
 
 text_labels = ['heineken', 'tiger', 'larue', 'biaviet', 'bivina', 'edelweiss', 'strongbow', 'saigon', '333', 'huda']

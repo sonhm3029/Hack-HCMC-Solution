@@ -1,96 +1,72 @@
 from ultralytics import YOLO
-import torch
-import numpy as np
+from paddleocr import PaddleOCR
 import cv2
+from unidecode import unidecode
 
-# Load models
-model_seg = YOLO(
-    r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_drinking_area_segmentation/best.pt")
-model_detec_beer = YOLO(
-    r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_beer_detection/best.pt")
-model_detec_human = YOLO(
-    r"C:/Users/admin/Desktop/Hack-HCMC-Solution/MVP/Flask-Server-template/ai/weights/v8m_human_detection/best.pt")
+import os
 
-classes_detec_beer = model_detec_beer.names
-classes_detec_human = model_detec_human.names
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+advertise_detector = YOLO(r"C:\Users\admin\Desktop\Hack-HCMC-Solution\MVP\Flask-Server-template\ai\weights\v8m_beer_advertise\best.pt")
+paddle_ocr = PaddleOCR(use_angle_cls=False, lang="en", use_gpu=True)
 
+text_labels = ['heineken', 'tiger', 'larue', 'biaviet', 'bivina', 'edelweiss', 'strongbow', 'saigon', '333', 'huda']
 
-def obj_counting(arr, names):
-    unique_elements, counts = torch.unique(arr, return_counts=True)
-    result = {names[int(element)]: int(count)
-              for element, count in zip(unique_elements, counts)}
-    return result, sum(result.values())
+class_names = advertise_detector.names
 
+def detect_objects(image_path, detector):
+    image = cv2.imread(image_path)
+    results = detector(image_path)
+    return image, results[0].boxes
 
-def get_mask_img(results, img_path):
-    image = cv2.imread(img_path)
-    masks = results[0].masks
-    final_mask = np.zeros((image.shape[0], image.shape[1]), dtype=np.uint8)
+def detect_text_in_boxes(image, boxes, paddleocr, class_names):
+    texts = []
+    for obj in boxes:
+        xyxy = obj.xyxy.squeeze().tolist()
+        cls = int(obj.cls.squeeze().tolist())  # Class index
+        class_name = class_names[cls]  # Class name
+        x1, y1, x2, y2 = map(int, xyxy)
+        advertise_img = image[y1: y2, x1: x2].copy()
+        
+        # Detect text
+        result = paddleocr.ocr(advertise_img, cls=False, det=True)
+        print(f"Detected OCR result for class '{class_name}': {result}")  # Print OCR result for debugging
+        if result and len(result) > 0:
+            result = [line for line in result if line]
+            for line in result:
+                for part in line:
+                    if part:
+                        line_text = part[1][0]
+                        processed_text = unidecode(line_text.replace(" ", "").lower())
+                        texts.append((processed_text, class_name))
+    return texts
 
-    for mask in masks:
-        mask_data = mask.data.squeeze().cpu().numpy() * 255
-        mask_data = mask_data.astype(np.uint8)
-        resized_mask = cv2.resize(
-            mask_data, (image.shape[1], image.shape[0]), interpolation=cv2.INTER_LINEAR)
-        final_mask = np.maximum(final_mask, resized_mask)
+def find_matching_labels(pred, labels):
+    unique_word = []
 
-    masked_image = image.copy()
-    masked_image[final_mask == 0] = 0
-    return masked_image, final_mask
+    for txt, class_name in pred:
+        w = txt.lower().replace(" ", "")
+        if w == "bia":
+            continue
 
+        unique_word.append((w, class_name))
 
-def check_in_mask(boxes, mask):
-    return [np.any(mask[int(y1):int(y2), int(x1):int(x2)] > 0) for x1, y1, x2, y2 in boxes]
+    unique_word = list(set(unique_word))
+    res = {label: [] for label in labels}
+    for l in labels:
+        for w, class_name in unique_word:
+            if l in w or w in l:
+                res[l].append(class_name) 
+    return res
 
+def get_response(image_path): 
+    image, boxes = detect_objects(image_path, advertise_detector)
+    texts = detect_text_in_boxes(image, boxes, paddle_ocr, class_names)
+    matching_labels = find_matching_labels(texts, text_labels)
+    
+    # Format the output to match the required structure
+    formatted_output = {label.capitalize().replace("_", ""): matching_labels[label] for label in text_labels}
+    
+    return formatted_output
 
-def get_response(img_path):
-    results_seg = model_seg(img_path, device='cpu')
-    mask_img, final_mask = get_mask_img(results_seg, img_path)
-
-    # Detect beers
-    results_detec_beer = model_detec_beer(img_path, device='cpu')
-    beer_result, beer_counting = obj_counting(
-        results_detec_beer[0].boxes.cls, classes_detec_beer)
-    beer_boxes = results_detec_beer[0].boxes.xyxy.tolist()
-
-    # If no beers detected, return empty dictionary
-    if beer_counting == 0:
-        return {}
-
-    # Detect humans
-    results_detec_human = model_detec_human(
-        mask_img, device='cpu', classes=[2])
-    human_result, human_counting = obj_counting(
-        results_detec_human[0].boxes.cls, classes_detec_human)
-    human_boxes = results_detec_human[0].boxes.xyxy.tolist()
-
-    json = {}
-
-    for i, mask in enumerate(results_seg[0].masks):
-        mask_data = mask.data.squeeze().cpu().numpy() * 255
-        mask_data = mask_data.astype(np.uint8)
-        resized_mask = cv2.resize(
-            mask_data, (final_mask.shape[1], final_mask.shape[0]), interpolation=cv2.INTER_LINEAR)
-
-        beers_in_mask = check_in_mask(beer_boxes, resized_mask)
-        humans_in_mask = check_in_mask(human_boxes, resized_mask)
-
-        beer_counts = []  # Changed to a list
-        for idx, in_mask in enumerate(beers_in_mask):
-            if in_mask:
-                beer_label = classes_detec_beer[int(
-                    results_detec_beer[0].boxes.cls[idx])]
-                beer_counts.append(beer_label)
-
-        human_count = sum(humans_in_mask)
-
-        beer_count_dict = {label: beer_counts.count(
-            label) for label in set(beer_counts)}
-
-        for beer_type, count in beer_count_dict.items():
-            if beer_type not in json:
-                json[beer_type] = {"human_count": 0, "beer_count": 0}
-            json[beer_type]["human_count"] += min(human_count, count)
-            json[beer_type]["beer_count"] += count
-
-    return json
+image_path = r"C:\Users\admin\Desktop\hackathon\images\66503090_1706008675754.jpg"
+print(get_response(image_path))

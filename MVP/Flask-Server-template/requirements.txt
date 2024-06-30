@@ -11,3 +11,5 @@ marshmallow==3.20.1
 ultralytics==8.2.41
 paddlepaddle==2.6.1
 paddleocr==2.7.3
+google-generativeai==0.7.1
+Unidecode

@@ -5,7 +5,7 @@ import os
 import cv2
 
 
-model = YOLO(r"ai\weights\v8m_human_detection\best.pt")
+model = YOLO(r"C:\Users\admin\Desktop\Hack-HCMC-Solution\MVP\Flask-Server-template\ai\weights\v8m_human_detection\best.pt")
 classes = model.names
 
 

@@ -4,7 +4,7 @@ from utils.file import UPLOAD_FOLDER, getUniqueFileName
 import os
 import cv2
 
-model = YOLO(r"ai\weights\v8m_beer_box_detection\best.pt")
+model = YOLO(r"C:\Users\admin\Desktop\Hack-HCMC-Solution\MVP\Flask-Server-template\ai\weights\v8m_beer_box_detection\best.pt")
 classes = model.names
 
 
