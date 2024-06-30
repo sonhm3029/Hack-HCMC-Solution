@@ -7,6 +7,7 @@ import { Button, Card, Col, Popconfirm, Row, notification } from "antd";
 import useCustomState from "@/hooks/useCustomState";
 import { useNavigate } from "react-router-dom";
 import { RouteName } from "@/routes/constants";
+import aiProvider from "@/data-access/aiProvider";
 
 const DataPage = () => {
   const navigate = useNavigate();
@@ -42,7 +43,25 @@ const DataPage = () => {
     navigate(RouteName.DETAIL_DATA_PAGE.replace(":id", _id));
   };
 
-  const onConfirmRunDetectAll = () => {};
+  const onConfirmRunDetectAll = () => {
+    loadingIndicatorRef.current.show();
+    aiProvider
+      .predictAll()
+      .then((res) => {
+        if (res?.data?.code === SUCCESS_CODE) {
+        } else {
+          throw new Error(res?.data?.message);
+        }
+      })
+      .catch((err) => {
+        notification.error({
+          description: err?.message,
+        });
+      })
+      .finally(() => {
+        loadingIndicatorRef.current.hide();
+      });
+  };
 
   useEffect(() => {
     getData();

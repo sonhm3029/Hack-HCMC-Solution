@@ -6,6 +6,7 @@ const API_VAR = {
   },
   PREDICT: {
     BASE: "/predict",
+    PRED_ALL: "/predict" + "/all"
   },
 };
 

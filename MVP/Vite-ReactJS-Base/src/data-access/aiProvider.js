@@ -21,6 +21,23 @@ const aiProvider = {
         });
     });
   },
+  predictAll: async () => {
+    return new Promise((resolve, reject) => {
+      axiosUtils
+        .requestAxios({
+          method: "POST",
+          url: API_VAR.PREDICT.PRED_ALL,
+          ignoreAuth: false,
+          isUseServiceUrl: true,
+        })
+        .then((res) => {
+          resolve(res);
+        })
+        .catch((error) => {
+          reject(error);
+        });
+    });
+  },
 };
 
 export default aiProvider;
