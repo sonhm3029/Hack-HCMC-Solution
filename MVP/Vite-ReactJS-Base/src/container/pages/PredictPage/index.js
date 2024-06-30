@@ -84,7 +84,7 @@ const PredictPage = () => {
   const [state, setState] = useCustomState({
     fileList: [],
     predict_res: null,
-    bc: 5,
+    bc: 1,
   });
   const uploadProps = {
     name: "file",

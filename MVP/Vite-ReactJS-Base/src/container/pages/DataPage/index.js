@@ -42,9 +42,7 @@ const DataPage = () => {
     navigate(RouteName.DETAIL_DATA_PAGE.replace(":id", _id));
   };
 
-  const onConfirmRunDetectAll = () => {
-    
-  }
+  const onConfirmRunDetectAll = () => {};
 
   useEffect(() => {
     getData();
@@ -53,7 +51,10 @@ const DataPage = () => {
     <DataPageWrapper className="p-5">
       <h1 className="font-bold text-2xl mb-3">List collected data</h1>
       <div className="functions-section mb-3 text-right">
-        <Popconfirm onConfirm={onConfirmRunDetectAll} description="Do you want to run detect all. If it still has image that not predicted yet, system will making prediction!">
+        <Popconfirm
+          onConfirm={onConfirmRunDetectAll}
+          description="Do you want to run detect all. If it still has image that not predicted yet, system will making prediction!"
+        >
           <Button type="primary">Run detect all</Button>
         </Popconfirm>
       </div>

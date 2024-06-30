@@ -66,9 +66,9 @@ const DetailDataPage = () => {
                 <Image
                   src={axiosUtils.getFilePath({ url: item })}
                   alt={"img"}
-                  height={"100%"}
                   width={"100%"}
                 />
+                <Button className="mt-2">View Predict Result</Button>
               </Col>
             ))}
           </Row>

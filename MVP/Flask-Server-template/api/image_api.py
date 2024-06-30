@@ -90,7 +90,8 @@ def upload():
             saved_data = {
                 "location": location,
                 "note": note,
-                "files": results
+                "files": results,
+                "is_predicted": False
             }
             res = mongodb.collections["images"].insert_one(saved_data)
             if not res.inserted_id:

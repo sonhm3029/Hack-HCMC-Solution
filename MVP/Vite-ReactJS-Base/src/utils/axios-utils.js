@@ -7,7 +7,7 @@ export const UrlServer = () => {
 
   switch (domain) {
     case "http://localhost:5173":
-      return "http://localhost:8000"
+      return "https://9485-101-53-1-124.ngrok-free.app";
   }
 };
 
@@ -52,10 +52,11 @@ const axiosUtils = {
       }
 
       let headers = ignoreAuth
-        ? { "Content-Type": contentType }
+        ? { "Content-Type": contentType, "ngrok-skip-browser-warning": true }
         : {
             "Content-Type": contentType,
             Authorization: this.auth,
+            "ngrok-skip-browser-warning": true,
           };
       axios({
         method,

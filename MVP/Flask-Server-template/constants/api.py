@@ -15,3 +15,4 @@ class API:
 
     class PREDICTION:
         BASE = ""
+        PRED_ALL = "/all"
