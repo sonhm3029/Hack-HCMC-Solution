@@ -8,6 +8,8 @@ export const UrlServer = () => {
   switch (domain) {
     case "http://localhost:5173":
       return "https://9485-101-53-1-124.ngrok-free.app";
+    default:
+      return "https://9485-101-53-1-124.ngrok-free.app";
   }
 };
 

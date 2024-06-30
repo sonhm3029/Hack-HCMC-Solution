@@ -8,6 +8,9 @@ const API_VAR = {
     BASE: "/predict",
     PRED_ALL: "/predict" + "/all"
   },
+  STATISTICS: {
+    BASE: "/statistic"
+  }
 };
 
 export default API_VAR;
